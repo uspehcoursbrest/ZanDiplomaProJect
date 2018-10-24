@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ykbro');
-  src:  url('fonts/icomoon.eot?ykbro#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ykbro') format('truetype'),
-    url('fonts/icomoon.woff?ykbro') format('woff'),
-    url('fonts/icomoon.svg?ykbro#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?q1sbh6');
+  src:  url('fonts/icomoon.eot?q1sbh6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q1sbh6') format('truetype'),
+    url('fonts/icomoon.woff?q1sbh6') format('woff'),
+    url('fonts/icomoon.svg?q1sbh6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,66 +24,72 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-stat3:before {
+.icon-E-mail:before {
   content: "\e900";
 }
-.icon-stat1:before {
+.icon-stat2:before {
   content: "\e901";
 }
-.icon-stat4:before {
+.icon-stat5:before {
   content: "\e902";
 }
-.icon-stat2:before {
+.icon-Time:before {
   content: "\e903";
 }
-.icon-stat5:before {
+.icon-calculator1:before {
   content: "\e904";
 }
-.icon-Time:before {
+.icon-calculator2:before {
   content: "\e905";
 }
-.icon-calculator2:before {
+.icon-Login1:before {
   content: "\e906";
 }
-.icon-calculator1:before {
+.icon-Login2:before {
   content: "\e907";
 }
-.icon-Login1:before {
+.icon-analysis:before {
   content: "\e908";
 }
-.icon-Login2:before {
+.icon-stat1:before {
   content: "\e909";
 }
-.icon-analysis:before {
+.icon-item1:before {
   content: "\e90a";
 }
-.icon-work:before {
+.icon-item2:before {
   content: "\e90b";
 }
-.icon-item1:before {
+.icon-item3:before {
   content: "\e90c";
 }
-.icon-item2:before {
+.icon-item4:before {
   content: "\e90d";
 }
-.icon-item3:before {
+.icon-item5:before {
   content: "\e90e";
 }
-.icon-item4:before {
+.icon-number:before {
   content: "\e90f";
 }
-.icon-item5:before {
+.icon-adress:before {
   content: "\e910";
 }
-.icon-number:before {
+.icon-telegram:before {
   content: "\e911";
 }
-.icon-adress:before {
+.icon-work:before {
   content: "\e912";
 }
-.icon-telegram:before {
+.icon-stat4:before {
   content: "\e913";
 }
-.icon-E-mail:before {
+.icon-stat3:before {
   content: "\e914";
+}
+.icon-next:before {
+  content: "\ea42";
+}
+.icon-prev:before {
+  content: "\ea44";
 }
