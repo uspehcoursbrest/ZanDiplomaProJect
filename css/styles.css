@@ -1,20 +1,879 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0 auto;
-    font-family:"Montserrat";
+    font-family: "Montserrat";
 }
-h1,h2,h3,h4,h5,h6{
+
+input, textarea, button {
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style-image: none;
 }
-.container{
+
+.container {
     width: 1200px;
-    margin:0 auto;
-    padding:0 15px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
+header {
+    background-color: #12173f;
+}
+
+header .DataTime .time {
+    font-size: 36px;
+    line-height: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left
+}
+
+.DataTime .data {
+    font-size: 15px;
+    line-height: 14px;
+    color: #8f9ac8;
+    text-align: left
+}
+
+.calculator1 span:not(.icon-calculator1) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #8f9ac8;
+    text-align: left
+
+}
+
+.calculator2 span:not(.icon-calculator2) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #8f9ac8;
+    text-align: left
+
+}
+
+.logo a {
+    text-decoration: none;
+    text-align: left
+}
+
+.logo .logo1 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left
+}
+
+.logo .logo2 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: left;
+}
+
+.menu a {
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+header .Login a{
+    text-decoration: none;
+}
+
+.content {
+    background-color: #12173f;
+}
+
+.registration h1 {
+    font-size: 90px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: left;
+
+}
+
+.registration .title {
+    font-size: 110px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.registration span {
+    font-size: 24px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left;
+}
+
+.registration button {
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.plan .plan1 span {
+    font-size: 20px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.plan2 .form {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan2 .days {
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.plan2 .space {
+    font-size: 17px;
+    line-height: 36px;
+    color: #5c65a7;
+    font-weight: 100;
+    text-align: center;
+}
+
+.plan2 .cost {
+    font-size: 17px;
+    line-height: 36px;
+    color: #a83dff;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.plan3 .title {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan3 .percent {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan3 .subtitle {
+    font-size: 17px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan3 .min {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.plan3 .total1 {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan3 .max {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.plan3 .total2 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan3 button {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.plan .plan4 span {
+    font-size: 20px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cards .text {
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.cards .num {
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.about h2 {
+    font-size: 50px;
+    line-height: 120px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.about h2 span {
+    font-size: 90px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about .profit {
+    font-size: 90px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.description p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.description .ul {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.description li {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+
+}
+.documents img{
+    font-size: 220px;
+    line-height: 300px;
+    text-decoration: none;
+    display: inline-block;
+    padding-left:auto ;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.documents .text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+
+.documents button {
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.program h2 {
+    font-size: 50px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.program p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.program a {
+    font-size: 17px;
+    line-height: 30px;
+    color: #00b9e1;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.Join h3 {
+    font-size: 50px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.Join button {
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.advantages h2 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: left;
+
+}
+
+.advantages .item1 .title {
+    font-size: 24px;
+    line-height: 22px;
+    color: #c279ff;
+    font-weight: 300;
+    text-align: right;
+
+}
+
+.advantages .item2 .title {
+    font-size: 24px;
+    line-height: 22px;
+    color: #8c69ff;
+    font-weight: 300;
+    text-align: right;
+}
+
+.advantages .item3 .title {
+    font-size: 24px;
+    line-height: 22px;
+    color: #3270fe;
+    font-weight: 300;
+    text-align: right;
+}
+
+.advantages .item4 .title {
+    font-size: 24px;
+    line-height: 22px;
+    color: #329cfe;
+    font-weight: 300;
+    text-align: left;
+}
+
+.advantages .item5 .title {
+    font-size: 24px;
+    line-height: 22px;
+    color: #00b9e1;
+    font-weight: 300;
+    text-align: left;
+}
+
+.advantages .item1 p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: right;
+
+}
+
+.advantages .item2 p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.advantages .item3 p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.advantages .item4 p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.advantages .item5 p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.analysiswork h2 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: left;
+
+}
+
+.analysiswork p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.analysiswork button {
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #12173f;
+}
+
+.copyright span {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.menuFotter a {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+footer h3 {
+    font-size: 15px;
+    line-height: 40px;
+    color: #0387fd;
+    text-align: left;
+}
+
+.support a {
+    font-size: 15px;
+    line-height: 40px;
+    color: #9846db;
+    text-align: left;
+
+}
+
+.support .soc {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+footer .address span {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.Registration {
+    background-color: #12173f;
+}
+
+.head a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.Registration .head .logo1 {
+    font-size: 27px;
+    line-height: 33px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Registration .head .logo2 {
+    font-size: 27px;
+    line-height: 33px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.personal {
+    background-color: #02295e;
+}
+
+.personal h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #0188fe;
+    text-align: left;
+}
+
+.personal label {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.login {
+    background-color: #02295e;
+}
+
+.login h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #9846db;
+    text-align: left;
+
+}
+
+.login label {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.e-currency {
+    background-color: #02295e;
+
+}
+
+.e-currency h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #00b9e1;
+    text-align: left;
+
+}
+
+.footclear label {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.footclear button {
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.account span {
+    font-size: 15px;
+    line-height: 40px;
+    color: #8f9ac8;
+
+}
+
+.account a {
+    font-size: 15px;
+    line-height: 40px;
+    color: #0387fd;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.topLine a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.deposit1 span {
+    font-size: 30px;
+    line-height: 50px;
+    color: #0387fd;
+    text-align: left;
+    font-weight: 200;
+
+}
+
+.accountInfo .userName {
+    font-size: 15px;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.accountInfo .name {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.accountInfo a {
+    font-size: 15px;
+    line-height: 30px;
+    color: #000325;
+    text-align: center;
+
+}
+
+.calendar span {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.calendar .data {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.withdraw span {
+    font-size: 30px;
+    line-height: 50px;
+    color: #00b9e1;
+    text-align: left;
+    font-weight: 200;
+
+}
+
+.balance .acBalance {
+    font-size: 17px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.balance span {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.counter .card .rate {
+    font-size: 15px;
+    line-height: 24px;
+    color: #a4add7;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.counter .card .title {
+    font-size: 15px;
+    line-height: 24px;
+    color: #a4add7;
+    text-align: left;
+
+}
+
+.yourDeposit h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.item .boxData .title1 {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.item .boxData .when {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.item .box .title {
+    font-size: 15px;
+    line-height: 24px;
+    color: #a4add7;
+    text-align: left;
+
+}
+
+.item .box .value {
+    font-size: 15px;
+    line-height: 24px;
+    color: #a4add7;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.estimate .text {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.estimate .progress {
+    font-size: 24px;
+    line-height: 22px;
+    color: #b65dff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.estimate .progress2 {
+    font-size: 24px;
+    line-height: 22px;
+    color: #b65dff;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.estimate .progress3 {
+    font-size: 24px;
+    line-height: 22px;
+    color: #00b9e1;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.estimate .progress4 {
+    font-size: 24px;
+    line-height: 22px;
+    color: #0387fd;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.pagination .pageNum a {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.pagination .controls a {
+    font-size: 25px;
+    line-height: 58px;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.home a {
+    font-size: 15px;
+    line-height: 40px;
+    color: #0387fd;
+    text-align: left;
+    text-decoration: none;
+
+}
+
