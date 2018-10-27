@@ -91,7 +91,8 @@ header .DataTime .time {
     color: #ffffff;
     text-decoration: none;
 }
-header .Login a{
+
+header .Login a {
     text-decoration: none;
 }
 
@@ -143,6 +144,30 @@ header .Login a{
 
 }
 
+.imgPlan1 {
+    width: 260px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.imgPlan12 {
+    width: 85px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.imgplan2 {
+    width: 395px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .plan2 .form {
     font-size: 30px;
     line-height: 40px;
@@ -173,6 +198,14 @@ header .Login a{
     font-weight: 700;
     text-align: center;
 
+}
+
+.imgplan3 {
+    width: 260px;
+    height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .plan3 .title {
@@ -244,6 +277,22 @@ header .Login a{
     text-align: center;
 }
 
+.imgPlan4 {
+    width: 260px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgPlan42 {
+    width: 85px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .cards .text {
     font-size: 17px;
     line-height: 36px;
@@ -310,12 +359,13 @@ header .Login a{
     text-align: left;
 
 }
-.documents img{
+
+.documents img {
     font-size: 220px;
     line-height: 300px;
     text-decoration: none;
     display: inline-block;
-    padding-left:auto ;
+    padding-left: auto;
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -329,7 +379,6 @@ header .Login a{
 
 }
 
-
 .documents button {
     font-size: 17px;
     line-height: 36px;
@@ -338,7 +387,6 @@ header .Login a{
     text-transform: uppercase;
 
 }
-
 
 .program h2 {
     font-size: 50px;
@@ -677,6 +725,34 @@ footer .address span {
     text-align: left;
     font-weight: 200;
 
+}
+.deposit1 .img1{
+    width: 1090px;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.deposit1 .imgLeft{
+    width: 80px;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.deposit1 .imgRight{
+    width: 80px;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.accountInfo .img2{
+    width: 510px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .accountInfo .userName {
