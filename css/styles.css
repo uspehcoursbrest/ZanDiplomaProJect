@@ -27,6 +27,12 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 header {
     background-color: #12173f;
 }
@@ -36,21 +42,22 @@ header .DataTime .time {
     line-height: 17px;
     color: #ffffff;
     font-weight: 700;
-    text-align: left
-}
+    text-align: left;
 
+}
 .DataTime .data {
     font-size: 15px;
     line-height: 14px;
     color: #8f9ac8;
-    text-align: left
+    text-align: left;
+
 }
 
 .calculator1 span:not(.icon-calculator1) {
     font-size: 15px;
     line-height: 24px;
     color: #8f9ac8;
-    text-align: left
+    text-align: left;
 
 }
 
@@ -58,8 +65,12 @@ header .DataTime .time {
     font-size: 15px;
     line-height: 24px;
     color: #8f9ac8;
-    text-align: left
+    text-align: left;
 
+}
+.logo{
+    width: 170px;
+    float: left;
 }
 
 .logo a {
@@ -67,13 +78,15 @@ header .DataTime .time {
     text-align: left
 }
 
+
 .logo .logo1 {
     font-size: 28px;
     line-height: 34px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 700;
-    text-align: left
+    text-align:left;
+    vertical-align: middle;
 }
 
 .logo .logo2 {
@@ -84,20 +97,30 @@ header .DataTime .time {
     font-weight: 300;
     text-align: left;
 }
+.menu{
+    width: calc(100% - 170px);
+    float: right;
+    padding-left: 100px;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 30px;
 
+}
 .menu a {
     font-size: 18px;
     line-height: 40px;
     color: #ffffff;
     text-decoration: none;
+    border-radius:100px;
 }
-
-header .Login a {
+.Login a {
     text-decoration: none;
-}
 
+
+}
 .content {
-    background-color: #12173f;
+    background-color: #1a204a;
 }
 
 .registration h1 {
@@ -132,6 +155,8 @@ header .Login a {
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
 
 }
 
@@ -140,40 +165,45 @@ header .Login a {
     line-height: 70px;
     color: #ffffff;
     font-weight: 700;
-    text-align: center;
 
+    transform: rotate(-90rad);
 }
-
 .imgPlan1 {
     width: 260px;
     height: 285px;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
 }
-
 .imgPlan12 {
     width: 85px;
     height: 285px;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
-}
+    background-position: right;
 
+}
 .imgplan2 {
     width: 395px;
     height: 350px;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+    text-align: center;
 
+
+}
 .plan2 .form {
     font-size: 30px;
     line-height: 40px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    padding-top: 60px;
+
+}
+.plan2 .form input{
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
 }
 
 .plan2 .days {
@@ -181,6 +211,7 @@ header .Login a {
     line-height: 36px;
     color: #ffffff;
     text-align: center;
+
 }
 
 .plan2 .space {
@@ -203,9 +234,9 @@ header .Login a {
 .imgplan3 {
     width: 260px;
     height: 390px;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
 .plan3 .title {
@@ -266,7 +297,7 @@ header .Login a {
     font-size: 14px;
     line-height: 25px;
     color: #ffffff;
-    text-transform: uppercase;
+
 }
 
 .plan .plan4 span {
@@ -280,7 +311,6 @@ header .Login a {
 .imgPlan4 {
     width: 260px;
     height: 285px;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -288,9 +318,24 @@ header .Login a {
 .imgPlan42 {
     width: 85px;
     height: 285px;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
+}
+.plan1, .plan2, .plan3, .plan4{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-bottom: 70px;
+}
+
+.statistic .cards {
+    float: left;
+    width: 20%;
+    text-align: center;
+    border-right-color: #20275a ;
+    border-right-style: solid;
+    border-right-width: 1px;
+
 }
 
 .cards .text {
@@ -309,16 +354,13 @@ header .Login a {
     text-align: center;
 
 }
-
 .about h2 {
     font-size: 50px;
     line-height: 120px;
     color: #ffffff;
     font-weight: 200;
     text-align: center;
-
 }
-
 .about h2 span {
     font-size: 90px;
     line-height: 110px;
@@ -333,7 +375,11 @@ header .Login a {
     color: #ffffff;
     font-weight: 200;
     text-align: center;
+}
 
+.description {
+    float: left;
+    width: 50%;
 }
 
 .description p {
@@ -358,6 +404,11 @@ header .Login a {
     color: #ffffff;
     text-align: left;
 
+}
+
+.documents {
+    float: left;
+    width: 50%;
 }
 
 .documents img {
@@ -429,6 +480,10 @@ header .Login a {
     text-align: center;
     text-transform: uppercase;
 
+}
+
+.advantages {
+    background-color: #1a204a;
 }
 
 .advantages h2 {
@@ -517,6 +572,18 @@ header .Login a {
     text-align: left;
 }
 
+.analysis {
+    float: left;
+    width: 50%;
+
+}
+
+.work {
+    float: left;
+    width: 50%;
+
+}
+
 .analysiswork h2 {
     font-size: 50px;
     line-height: 50px;
@@ -542,8 +609,24 @@ header .Login a {
 
 }
 
+.cooperation img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
 footer {
-    background-color: #12173f;
+    background-color: #0d0f29;
+
+}
+
+footer .logo, .menuFotter, .support, .address {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 95px;
+
 }
 
 .copyright span {
@@ -629,9 +712,8 @@ footer .address span {
     text-align: center;
 }
 
-.personal {
-    background-color: #02295e;
-}
+
+
 
 .personal h2 {
     font-size: 24px;
@@ -648,9 +730,7 @@ footer .address span {
 
 }
 
-.login {
-    background-color: #02295e;
-}
+
 
 .login h2 {
     font-size: 24px;
@@ -667,10 +747,7 @@ footer .address span {
     text-align: left;
 }
 
-.e-currency {
-    background-color: #02295e;
 
-}
 
 .e-currency h2 {
     font-size: 24px;
@@ -726,28 +803,32 @@ footer .address span {
     font-weight: 200;
 
 }
-.deposit1 .img1{
+
+.deposit1 .img1 {
     width: 1090px;
     height: 135px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.deposit1 .imgLeft{
+
+.deposit1 .imgLeft {
     width: 80px;
     height: 135px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
 }
-.deposit1 .imgRight{
+
+.deposit1 .imgRight {
     width: 80px;
     height: 135px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
-.accountInfo .img2{
+
+.accountInfo .img2 {
     width: 510px;
     height: 190px;
     background-size: cover;
@@ -943,7 +1024,6 @@ footer .address span {
     text-decoration: none;
 
 }
-
 .home a {
     font-size: 15px;
     line-height: 40px;
