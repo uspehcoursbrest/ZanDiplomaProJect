@@ -439,6 +439,7 @@ header .DataTime .time {
 
 }
 
+
 .program h2 {
     font-size: 50px;
     line-height: 110px;
@@ -481,6 +482,8 @@ header .DataTime .time {
     text-transform: uppercase;
 
 }
+
+
 
 .advantages {
     background-color: #1a204a;
@@ -571,7 +574,6 @@ header .DataTime .time {
     color: #ffffff;
     text-align: left;
 }
-
 .analysis {
     float: left;
     width: 50%;
