@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d07c3a-8b8d-492f-8fe0-0ca392a2bda3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/deposit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jpg/documents1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jpg/documents2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,55 +19,62 @@
     <session id="335147447">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.162" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.297" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.57" value="3" />
           <entry key="project.open.time.64" value="3" />
+          <entry key="project.open.time.65" value="2" />
           <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.79" value="2" />
+          <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="9" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="32" />
+          <entry key="html" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="32" />
+          <entry key="HTML" value="33" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3437" />
+          <entry key="css" value="8394" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="3993" />
+          <entry key="html" value="5434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3437" />
-          <entry key="HTML" value="3993" />
+          <entry key="CSS" value="8394" />
+          <entry key="HTML" value="5434" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -81,14 +83,38 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49172288">
+    <splitter split-orientation="horizontal" split-proportion="0.6309013">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="21">
+                  <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/registration.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+                <state relative-caret-position="1155">
+                  <caret line="55" selection-start-line="55" selection-end-line="55" />
                 </state>
               </provider>
             </entry>
@@ -96,26 +122,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/deposit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4346">
-                  <caret line="358" column="55" selection-start-line="358" selection-start-column="55" selection-end-line="358" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+                <state relative-caret-position="9933">
+                  <caret line="473" column="9" selection-start-line="473" selection-start-column="9" selection-end-line="473" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -127,8 +135,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2288">
-                  <caret line="135" selection-start-line="135" selection-end-line="135" />
+                <state relative-caret-position="-668">
+                  <caret line="352" column="20" lean-forward="true" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -156,10 +164,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/fonts/icomoon/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/deposit.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -169,7 +177,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1032" />
@@ -252,12 +260,24 @@
       <workItem from="1540496979201" duration="2548000" />
       <workItem from="1540532059491" duration="1400000" />
       <workItem from="1540557734703" duration="16718000" />
-      <workItem from="1540576690947" duration="7570000" />
+      <workItem from="1540576690947" duration="8732000" />
+      <workItem from="1540636528023" duration="440000" />
+      <workItem from="1540638263124" duration="3460000" />
+      <workItem from="1540712580302" duration="3244000" />
+      <workItem from="1540718774099" duration="9147000" />
+      <workItem from="1540738134084" duration="3872000" />
+      <workItem from="1540805508385" duration="5711000" />
+      <workItem from="1540822413805" duration="12126000" />
+      <workItem from="1540906181650" duration="7230000" />
+      <workItem from="1540995654644" duration="3891000" />
+      <workItem from="1541102093947" duration="1956000" />
+      <workItem from="1541168164903" duration="22268000" />
+      <workItem from="1541193729015" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72944000" />
+    <option name="totallyTimeSpent" value="147936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -276,7 +296,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../верстка рабочего проекта/ZanGroupProject/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -349,31 +362,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://H:/К теме 7 для 27.10.2018/Position_Pseudo_Hover/coinMaker.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+        <state relative-caret-position="21">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="1155">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deposit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4346">
-          <caret line="358" column="55" selection-start-line="358" selection-start-column="55" selection-end-line="358" selection-end-column="55" />
+        <state relative-caret-position="9933">
+          <caret line="473" column="9" selection-start-line="473" selection-start-column="9" selection-end-line="473" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="504">
+          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="352" column="20" lean-forward="true" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="20" />
         </state>
       </provider>
     </entry>

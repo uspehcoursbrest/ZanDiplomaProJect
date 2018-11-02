@@ -35,6 +35,20 @@ ul {
 
 header {
     background-color: #12173f;
+    width: 1920px;
+}
+
+.table1{
+    display: table;
+    width: 1000px;
+    margin-left: 200px;
+
+}
+.DataTime, .calculator1, .calculator2{
+    display: table-cell;
+    width: 33.3333%;
+    vertical-align: middle;
+    margin-left: 50px;
 }
 
 header .DataTime .time {
@@ -77,6 +91,16 @@ header .DataTime .time {
     text-decoration: none;
     text-align: left
 }
+.logo{
+    position: relative;
+    margin-top: 60px;
+}
+.logo .logo1{
+    position: absolute;
+    display: block;
+    top: 25px;
+    left: 45px;
+}
 
 
 .logo .logo1 {
@@ -101,10 +125,12 @@ header .DataTime .time {
     width: calc(100% - 170px);
     float: right;
     padding-left: 100px;
+    margin-top: 65px;
 }
 .menu li{
     display: inline-block;
     margin-right: 30px;
+    margin-top:20px ;
 
 }
 .menu a {
@@ -112,16 +138,61 @@ header .DataTime .time {
     line-height: 40px;
     color: #ffffff;
     text-decoration: none;
-    border-radius:100px;
+
+
 }
-.Login a {
-    text-decoration: none;
-
-
+.menu .Login {
+    display: inline-block;
+    background-color:rgb(38, 45,97) ;
+    height: 30px;
+    width: 35px;
+    border-radius: 100%;
+    
+}
+.menu .Login a{
+    display: block;
+    text-align: center;
+    margin-top: -5px;
 }
 .content {
     background-color: #1a204a;
+    width: 1920px;
 }
+.back1{
+    height: 2695px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.back2{
+    height: 1745px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-top: -300px;
+}
+.back3{
+    height: 1245px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-top: -500px;
+}
+.back4{
+    height: 1319px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-top: -350px;
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+
 
 .registration h1 {
     font-size: 90px;
@@ -129,6 +200,7 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 100;
     text-align: left;
+    padding-top: 93px;
 
 }
 
@@ -141,7 +213,7 @@ header .DataTime .time {
 
 }
 
-.registration span {
+.registration p {
     font-size: 24px;
     line-height: 48px;
     color: #ffffff;
@@ -156,17 +228,19 @@ header .DataTime .time {
     text-align: center;
     text-transform: uppercase;
     margin-top: 60px;
-    margin-bottom: 60px;
+
 
 }
 
-.plan .plan1 span {
+.plan{
+    padding-top: 140px;
+}
+.plan .plan1  span{
     font-size: 20px;
     line-height: 70px;
     color: #ffffff;
     font-weight: 700;
 
-    transform: rotate(-90rad);
 }
 .imgPlan1 {
     width: 260px;
@@ -196,7 +270,10 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 55px;
+    padding-left: 45px;
+    padding-right: 45px;
+
 
 }
 .plan2 .form input{
@@ -204,6 +281,11 @@ header .DataTime .time {
     border-bottom-left-radius:20px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 270px;
+    height: 40px;
 }
 
 .plan2 .days {
@@ -211,6 +293,7 @@ header .DataTime .time {
     line-height: 36px;
     color: #ffffff;
     text-align: center;
+
 
 }
 
@@ -237,6 +320,7 @@ header .DataTime .time {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    padding: 40px 55px 30px 55px;
 }
 
 .plan3 .title {
@@ -245,6 +329,7 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .plan3 .percent {
@@ -253,6 +338,7 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+
 }
 
 .plan3 .subtitle {
@@ -297,6 +383,13 @@ header .DataTime .time {
     font-size: 14px;
     line-height: 25px;
     color: #ffffff;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    width: 130px;
+    height: 38px;
+    border: none;
 
 }
 
@@ -319,7 +412,8 @@ header .DataTime .time {
     width: 85px;
     height: 285px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right;
+
 }
 .plan1, .plan2, .plan3, .plan4{
     display: inline-block;
@@ -335,6 +429,8 @@ header .DataTime .time {
     border-right-color: #20275a ;
     border-right-style: solid;
     border-right-width: 1px;
+    margin-top: 130px;
+    margin-bottom: 140px;
 
 }
 
@@ -360,6 +456,9 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 200;
     text-align: center;
+    padding-bottom: 100px;
+
+
 }
 .about h2 span {
     font-size: 90px;
@@ -367,6 +466,7 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+
 }
 
 .about .profit {
@@ -377,9 +477,20 @@ header .DataTime .time {
     text-align: center;
 }
 
+.description, .documents{
+    background-color: #232853;
+    height: 745px;
+    width: 1170px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 165px;
+}
 .description {
     float: left;
     width: 50%;
+
 }
 
 .description p {
@@ -411,15 +522,15 @@ header .DataTime .time {
     width: 50%;
 }
 
-.documents img {
-    font-size: 220px;
-    line-height: 300px;
+.documents .left, .right {
+    height: 350px;
+    width: 270px;
     text-decoration: none;
     display: inline-block;
-    padding-left: auto;
     background-repeat: no-repeat;
     background-position: left center;
 }
+
 
 .documents .text {
     font-size: 15px;
@@ -427,8 +538,8 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 700;
     text-align: left;
-
 }
+
 
 .documents button {
     font-size: 17px;
@@ -439,13 +550,14 @@ header .DataTime .time {
 
 }
 
-
 .program h2 {
     font-size: 50px;
     line-height: 110px;
     color: #ffffff;
     font-weight: 200;
     text-align: center;
+    padding-top: 175px;
+
 
 }
 
@@ -453,6 +565,7 @@ header .DataTime .time {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
+    margin-top: 70px;
 }
 
 .program a {
@@ -463,6 +576,11 @@ header .DataTime .time {
     text-decoration: none;
     text-transform: uppercase;
 
+}
+.program img{
+    padding-left: 200px;
+    margin-bottom: 95px;
+    margin-top: 110px;
 }
 
 .Join h3 {
@@ -479,15 +597,13 @@ header .DataTime .time {
     line-height: 36px;
     color: #ffffff;
     text-align: center;
-    text-transform: uppercase;
-
+    width: 250px;
+    height: 60px;
+    margin-left: 460px;
+    margin-top: 55px;
 }
 
 
-
-.advantages {
-    background-color: #1a204a;
-}
 
 .advantages h2 {
     font-size: 50px;
@@ -495,19 +611,36 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 200;
     text-align: left;
-
+    margin-top: 500px;
+    padding-top: 220px;
 }
 
-.advantages .item1 .title {
+.advantages .item1 .title1 {
     font-size: 24px;
     line-height: 22px;
     color: #c279ff;
     font-weight: 300;
-    text-align: right;
+    text-align: left;
+
+}
+.item1{
+    position: relative;
+}
+.item1 span[class*="icon-"]{
+    display: block;
+    position: absolute;
+    bottom: -415px;
+    left: 210px;
+}
+.item1 .title1, .mintext1{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 200px;
 
 }
 
-.advantages .item2 .title {
+.advantages .item2 .title2 {
     font-size: 24px;
     line-height: 22px;
     color: #8c69ff;
@@ -515,35 +648,99 @@ header .DataTime .time {
     text-align: right;
 }
 
-.advantages .item3 .title {
+.item2{
+    position: relative;
+}
+.item2 span[class*="icon-"]{
+    display: block;
+    position: absolute;
+    bottom: -395px;
+    left: 455px;
+}
+.item2 .title2, .mintext2{
+    display: block;
+    position: absolute;
+    left: 450px;
+    top: 530px;
+
+}
+.advantages .item3 .title3 {
     font-size: 24px;
     line-height: 22px;
     color: #3270fe;
     font-weight: 300;
     text-align: right;
 }
+.item3{
+    position: relative;
+}
+.item3 span[class*="icon-"]{
+    display: block;
+    position: absolute;
+    bottom: -335px;
+    left: 685px;
+}
+.item3 .title3, .mintext3{
+    display: block;
+    position: absolute;
+    left: 450px;
+    top: 130px;
 
-.advantages .item4 .title {
+}
+
+.advantages .item4 .title4 {
     font-size: 24px;
     line-height: 22px;
     color: #329cfe;
     font-weight: 300;
     text-align: left;
 }
+.item4{
+    position: relative;
+}
+.item4 span[class*="icon-"]{
+    display: block;
+    position: absolute;
+    bottom: -230px;
+    left: 885px;
+}
+.item4 .title4, .mintext4{
+    display: block;
+    position: absolute;
+    left: 910px;
+    top: 355px;
 
-.advantages .item5 .title {
+}
+
+.advantages .item5 .title5 {
     font-size: 24px;
     line-height: 22px;
     color: #00b9e1;
     font-weight: 300;
     text-align: left;
 }
+.item5{
+    position: relative;
+}
+.item5 span[class*="icon-"]{
+    display: block;
+    position: absolute;
+    bottom: -60px;
+    left: 1050px;
+}
+.item5 .title5, .mintext5{
+    display: block;
+    position: absolute;
+    left: 770px;
+    top: -95px;
+
+}
 
 .advantages .item1 p {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: right;
+    text-align: left;
 
 }
 
@@ -551,14 +748,14 @@ header .DataTime .time {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: right;
+    text-align: left;
 }
 
 .advantages .item3 p {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: right;
+    text-align: left;
 }
 
 .advantages .item4 p {
@@ -577,7 +774,6 @@ header .DataTime .time {
 .analysis {
     float: left;
     width: 50%;
-
 }
 
 .work {
@@ -592,6 +788,7 @@ header .DataTime .time {
     color: #ffffff;
     font-weight: 200;
     text-align: left;
+    margin-top: 365px;
 
 }
 
@@ -600,34 +797,69 @@ header .DataTime .time {
     line-height: 30px;
     color: #ffffff;
     text-align: left;
+    width: 445px;
 }
 
 .analysiswork button {
     font-size: 17px;
     line-height: 36px;
     color: #ffffff;
+    background-color: #9846db;
     text-transform: uppercase;
     text-align: center;
+    border: none;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    width: 185px;
+    height: 45px;
+    margin-top: 70px;
 
 }
+.work button {
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #3270fe;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    width: 185px;
+    height: 45px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
 
+.cooperation{
+    display: table;
+    width: 100%;
+
+}
 .cooperation img {
     vertical-align: middle;
-    display: inline-block;
     margin-right: 50px;
-    padding-top: 110px;
-    padding-bottom: 90px;
+    margin-top: 110px;
+
+    margin-bottom: 100px;
 }
 
 footer {
     background-color: #0d0f29;
+    height: 360px;
+    width: 1920px;
 
 }
 
 footer .logo, .menuFotter, .support, .address {
     vertical-align: top;
     display: inline-block;
-    margin-right: 95px;
+    margin-right: 100px;
+    margin-top: 90px;
 
 }
 
