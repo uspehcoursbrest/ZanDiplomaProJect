@@ -235,11 +235,25 @@ header .DataTime .time {
 .plan{
     padding-top: 140px;
 }
+
 .plan .plan1  span{
     font-size: 20px;
     line-height: 70px;
     color: #ffffff;
     font-weight: 700;
+    padding: 60px;
+
+}
+.plan .plan1 .header {
+    right: 1000px;
+    background-color: #00b9e1;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.33);
+}
+.plan .plan1 .header  {
+    position: absolute;
+    top: 1035px;
+    width: 290px;
+    transform: rotate(-90deg);
 
 }
 .imgPlan1 {
@@ -248,13 +262,18 @@ header .DataTime .time {
     background-repeat: no-repeat;
     background-position: left;
 }
-.imgPlan12 {
-    width: 85px;
-    height: 285px;
-    background-repeat: no-repeat;
-    background-position: right;
+.plan2 .form {
+    position: relative;
 
 }
+.plan2 .form .cen{
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 125px;
+    color: #000000;
+}
+
 .imgplan2 {
     width: 395px;
     height: 350px;
@@ -393,12 +412,26 @@ header .DataTime .time {
 
 }
 
-.plan .plan4 span {
+.plan .plan4 .header {
+    right: -125px;
+    background-color: #00b9e1;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.33);
+}
+.plan .plan4 .header  {
+    position: absolute;
+    top: 1035px;
+    width: 290px;
+    transform: rotate(-90deg);
+
+}
+.plan .plan4 .header span{
     font-size: 20px;
     line-height: 70px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    padding: 40px;
+
 }
 
 .imgPlan4 {
@@ -408,13 +441,7 @@ header .DataTime .time {
     background-position: center;
 }
 
-.imgPlan42 {
-    width: 85px;
-    height: 285px;
-    background-repeat: no-repeat;
-    background-position:right;
 
-}
 .plan1, .plan2, .plan3, .plan4{
     display: inline-block;
     vertical-align: middle;
@@ -530,9 +557,38 @@ header .DataTime .time {
     background-repeat: no-repeat;
     background-position: left center;
 }
+.documents .adress{
+    position: relative;
+}
+.documents .adress .text2{
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 25px;
 
 
-.documents .text {
+}
+.documents .number{
+    position: relative;
+    margin-top: 60px;
+}
+.documents .number .text2{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+
+}
+
+.documents .text1 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+
+}
+.documents .text2 {
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
@@ -541,12 +597,16 @@ header .DataTime .time {
 }
 
 
+
 .documents button {
     font-size: 17px;
     line-height: 36px;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
+    margin-left: 300px;
+    margin-top: -40px;
+
 
 }
 
@@ -621,6 +681,7 @@ header .DataTime .time {
     color: #c279ff;
     font-weight: 300;
     text-align: left;
+    margin-left: 95px;
 
 }
 .item1{
@@ -635,8 +696,8 @@ header .DataTime .time {
 .item1 .title1, .mintext1{
     display: block;
     position: absolute;
-    left: 100px;
-    top: 200px;
+    left: 50px;
+    top: 190px;
 
 }
 
@@ -646,6 +707,7 @@ header .DataTime .time {
     color: #8c69ff;
     font-weight: 300;
     text-align: right;
+
 }
 
 .item2{
@@ -660,8 +722,8 @@ header .DataTime .time {
 .item2 .title2, .mintext2{
     display: block;
     position: absolute;
-    left: 450px;
-    top: 530px;
+    left: 470px;
+    top: 520px;
 
 }
 .advantages .item3 .title3 {
@@ -670,6 +732,7 @@ header .DataTime .time {
     color: #3270fe;
     font-weight: 300;
     text-align: right;
+    margin-left: 45px;
 }
 .item3{
     position: relative;
@@ -684,7 +747,7 @@ header .DataTime .time {
     display: block;
     position: absolute;
     left: 450px;
-    top: 130px;
+    top: 140px;
 
 }
 
@@ -707,7 +770,7 @@ header .DataTime .time {
 .item4 .title4, .mintext4{
     display: block;
     position: absolute;
-    left: 910px;
+    left: 920px;
     top: 355px;
 
 }
@@ -718,6 +781,7 @@ header .DataTime .time {
     color: #00b9e1;
     font-weight: 300;
     text-align: left;
+    margin-left: 55px;
 }
 .item5{
     position: relative;
@@ -731,8 +795,8 @@ header .DataTime .time {
 .item5 .title5, .mintext5{
     display: block;
     position: absolute;
-    left: 770px;
-    top: -95px;
+    left: 720px;
+    top: -105px;
 
 }
 
@@ -740,7 +804,7 @@ header .DataTime .time {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: left;
+    text-align: right;
 
 }
 
@@ -755,7 +819,7 @@ header .DataTime .time {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: left;
+    text-align: right;
 }
 
 .advantages .item4 p {
@@ -769,7 +833,7 @@ header .DataTime .time {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
-    text-align: left;
+    text-align: right;
 }
 .analysis {
     float: left;
@@ -781,6 +845,23 @@ header .DataTime .time {
     width: 50%;
 
 }
+.analysis{
+    position: relative;
+}
+.analysis span{
+    position: absolute;
+    display: block;
+    top: 415px;
+}
+.work{
+    position: relative;
+}
+.work span{
+    position: absolute;
+    display: block;
+    top: 415px;
+}
+
 
 .analysiswork h2 {
     font-size: 50px;
@@ -789,6 +870,7 @@ header .DataTime .time {
     font-weight: 200;
     text-align: left;
     margin-top: 365px;
+    margin-left: 40px;
 
 }
 
@@ -911,13 +993,32 @@ footer .address span {
 
 }
 
-.Registration {
-    background-color: #12173f;
+.backReg{
+    height: 1080px;
+    width: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .head a {
     text-decoration: none;
     text-align: center;
+    margin-left: 540px;
+
+}
+.head img{
+    margin-top: 90px;
+}
+.head{
+    position: relative;
+}
+.head .logo1{
+    position: absolute;
+    display: block;
+    margin-left: 520px;
+
+
 }
 
 .Registration .head .logo1 {
@@ -927,6 +1028,7 @@ footer .address span {
     text-decoration: none;
     font-weight: 700;
     text-align: center;
+
 }
 
 .Registration .head .logo2 {
@@ -944,16 +1046,78 @@ footer .address span {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    margin-top: 35px;
+    margin-bottom: 55px;
 }
 
+.form1 {
+    float: left;
+    width: 100%;
+}
+.personal, .login, .e-currency{
+    float: left;
+    width: 33.3333%;
+    text-align: left;
+}
+.personal{
+    position: revert;
+}
+.personal h2{
+    display: block;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
 
+}
+.personal .per1 label{
+     display: block;
+     position: absolute;
+     margin-top: 60px;
+    margin-left: 40px;
 
+ }
+.personal .per1 input{
+    display: block;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 40px;
+
+}
+.personal .per2 label{
+    display: block;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 40px;
+
+}
+.personal .per2 input{
+    display: block;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 40px;
+
+}
+.personal .per3 label{
+    display: block;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 40px;
+
+}
+.personal .per3 input{
+    display: block;
+    position: absolute;
+    margin-top: 340px;
+    margin-left:40px;
+
+}
 
 .personal h2 {
     font-size: 24px;
     line-height: 36px;
     color: #0188fe;
     text-align: left;
+
 }
 
 .personal label {
@@ -961,6 +1125,69 @@ footer .address span {
     line-height: 100px;
     color: #ffffff;
     text-align: left;
+
+}
+.personal input{
+    width: 295px;
+    height: 40px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border: none;
+    background-color: #313970;
+}
+
+.login{
+    position: revert;
+}
+.login h2{
+    display: block;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 20px;
+
+}
+.login .log1 label{
+    display: block;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 440px;
+
+}
+.login .log1 input{
+    display: block;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 440px;
+
+}
+.login .log2 label{
+    display: block;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 440px;
+
+}
+.login .log2 input{
+    display: block;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 440px;
+
+}
+.login .log3 label{
+    display: block;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 440px;
+
+}
+.login .log3 input{
+    display: block;
+    position: absolute;
+    margin-top: 340px;
+    margin-left:440px;
 
 }
 
@@ -980,31 +1207,128 @@ footer .address span {
     color: #ffffff;
     text-align: left;
 }
-
-
+.login input{
+    width: 295px;
+    height: 40px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border: none;
+    background-color: #313970;
+}
 
 .e-currency h2 {
     font-size: 24px;
     line-height: 36px;
     color: #00b9e1;
     text-align: left;
-
 }
+.e-currency{
+    position: revert;
+}
+.e-currency h2{
+    display: block;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 20px;
+}
+.e-currency .ecur1{
+    display: block;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 840px;
+}
+.e-currency .ecur1 img{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 250px;
+}
+
+
+.e-currency .ecur2{
+    display: block;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 840px;
+}
+.e-currency .ecur2 img{
+    display: block;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 250px;
+}
+.e-currency .ecur3{
+    display: block;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 840px;
+}
+.e-currency .ecur3 img{
+    display: block;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 250px;
+}
+.e-currency .ecur4{
+    display: block;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 840px;
+}
+.e-currency .ecur4 img{
+    display: block;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 250px;
+}
+
+
+.e-currency input{
+    width: 295px;
+    height: 45px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border: none;
+    background-color: #313970;
+}
+
 
 .footclear label {
     font-size: 17px;
     line-height: 100px;
     color: #ffffff;
     text-align: left;
-
 }
-
+.footclear{
+    position: revert;
+}
+.footclear input{
+    display: block;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 440px;
+}
+.footclear label{
+    display: block;
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 460px;
+}
 .footclear button {
     font-size: 20px;
     line-height: 36px;
     color: #ffffff;
     text-transform: uppercase;
-
+    margin-top: 560px;
+    margin-left: 530px;
+}
+.foot .copyright{
+   margin-left:500px ;
+    margin-top: 50px;
 }
 
 .account span {
