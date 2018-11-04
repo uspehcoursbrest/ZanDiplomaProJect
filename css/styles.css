@@ -233,6 +233,9 @@ header .DataTime .time {
 }
 
 .plan{
+    position: relative;
+}
+.plan{
     padding-top: 140px;
 }
 
@@ -251,7 +254,7 @@ header .DataTime .time {
 }
 .plan .plan1 .header  {
     position: absolute;
-    top: 1035px;
+    top: 300px;
     width: 290px;
     transform: rotate(-90deg);
 
@@ -419,7 +422,7 @@ header .DataTime .time {
 }
 .plan .plan4 .header  {
     position: absolute;
-    top: 1035px;
+    top: 300px;
     width: 290px;
     transform: rotate(-90deg);
 
