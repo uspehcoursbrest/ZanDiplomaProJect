@@ -92,6 +92,22 @@ header {
     padding-bottom: 60px;
 
 }
+.backDep{
+    height: 2245px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin-top: -260px;
+    padding-top: 220px;
+
+}
+.backReg{
+    height: 1080px;
+    width: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 
 
 
@@ -99,6 +115,7 @@ header .table1{
     display: table;
     width: 1000px;
     margin-left: 200px;
+    vertical-align: middle;
 
 }
 header .DataTime, .calculator1, .calculator2{
@@ -106,10 +123,14 @@ header .DataTime, .calculator1, .calculator2{
     width: 33.3333%;
     vertical-align: middle;
     margin-left: 50px;
+
 }
 .calculator{
     display: table-cell;
     width: 50%;
+    vertical-align: middle;
+}
+.calendar1, .calculator2{
     vertical-align: middle;
 }
 header .DataTime span[class*="icon-Time"]{
@@ -395,7 +416,9 @@ header .calculator2 span[class*="icon-calculator2"]{
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding: 40px 55px 30px 55px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 7;
 }
 
 .plan3 .title {
@@ -404,7 +427,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 40px;
+
+
 }
 
 .plan3 .percent {
@@ -413,6 +437,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+
+
 
 
 }
@@ -463,6 +489,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     width: 130px;
     height: 40px;
     border: 1px solid #ffffff;
+    background-color: transparent;
 
 }
 
@@ -472,6 +499,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.33);
 
 }
+
 .plan .plan4 .header  {
     position: absolute;
     top: 300px;
@@ -494,7 +522,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     height: 285px;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 
@@ -537,6 +564,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: center;
 
 }
+
 .about h2 {
     font-size: 50px;
     line-height: 120px;
@@ -571,7 +599,10 @@ header .calculator2 span[class*="icon-calculator2"]{
     padding: 100px 20px;
     margin-bottom: 165px;
 
+
+
 }
+
 
 .about  .description {
     float: left;
@@ -694,7 +725,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #a63afe 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-
+    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
 
 
 }
@@ -715,6 +746,10 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 30px;
     color: #ffffff;
     margin-top: 70px;
+    text-align: center;
+
+
+
 }
 
 .program a {
@@ -727,7 +762,7 @@ header .calculator2 span[class*="icon-calculator2"]{
 
 }
 .program img{
-    padding-left: 200px;
+    padding-left: 220px;
     margin-bottom: 95px;
     margin-top: 110px;
 }
@@ -759,7 +794,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #a63afe 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-    box-shadow:  5px 5px 0 5px rgba(0,0,0,0.11);
+    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
 
 }
 
@@ -1015,7 +1050,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     width: 185px;
     height: 45px;
     margin-top: 70px;
-    box-shadow:  5px 5px 0 5px rgba(0,0,0,0.11);
+    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
 
 }
 .analysiswork .work button {
@@ -1031,7 +1066,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     height: 45px;
     margin-top: 70px;
     margin-bottom: 100px;
-    box-shadow:  5px 5px 0 5px rgba(0,0,0,0.11);
+    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
 }
 
 .cooperation{
@@ -1058,9 +1093,12 @@ footer .logo, .menuFotter, .support, .address {
     vertical-align: top;
     display: inline-block;
     margin-top: 90px;
-    margin-right: 100px;
-
-
+    margin-right: 65px;
+    margin-left: 20px;
+}
+footer .copyright{
+    width: 250px;
+    margin-top: 45px;
 
 }
 
@@ -1074,7 +1112,9 @@ footer .logo, .menuFotter, .support, .address {
 
 }
 
-
+.menuFotter{
+    padding-left:50px;
+}
 .menuFotter a {
     font-size: 15px;
     line-height: 40px;
@@ -1092,6 +1132,9 @@ footer h3 {
     text-align: left;
 }
 
+.support, .address{
+    padding-left: 30px;
+}
 .support a {
     font-size: 15px;
     line-height: 40px;
@@ -1119,12 +1162,7 @@ footer .address span {
 
 }
 
-.backReg{
-    height: 1080px;
-    width: 1920px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 
 .head  {
@@ -1450,7 +1488,7 @@ footer .address span {
     background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #a63afe 1%,#0088fe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-    box-shadow: 5px 5px 0 5px rgba(0,0,0,0.11);
+    box-shadow: 5px  0 5px rgba(0,0,0,0.11);
 }
 .foot .copyright{
     margin-left:470px;
@@ -1532,7 +1570,7 @@ header .support a {
 .topLine{
     display: table;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .topLine li{
     display: table-cell;
@@ -1541,6 +1579,7 @@ header .support a {
     border: 1px solid #313769;
     text-align: left;
     padding:10px;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
 }
 .topLine a {
     font-size: 15px;
@@ -1562,23 +1601,29 @@ header .support a {
     font-weight: 200;
 
 }
-
+.banner1{
+    margin-top: 35px;
+}
 .bannerDep{
     float: left;
     width: 100%;
     position: relative;
     margin-top: 50px;
+    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
 }
 .bannerDep{
      width: 1170px;
      height: 130px;
      background-color: #040830;
+
  }
+
 .deposit1{
     width: 80px;
     height: 130px;
     background-color: #0387fd;
     float: left;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
 }
 .deposit1 span{
     position: absolute;
@@ -1597,6 +1642,7 @@ header .support a {
     float: right;
     position: absolute;
     right: 0px;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
 }
 .withdraw img{
     position: absolute;
@@ -1613,6 +1659,7 @@ header .support a {
     height: 190px;
     background-color: #9846db;
     position: revert;
+    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
 }
 .accountInfo{
     position: absolute;
@@ -1668,6 +1715,7 @@ header .support a {
     width: 290px;
     height: 190px;
     position: relative;
+    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
 }
 .calendar{
     position: absolute;
@@ -1731,7 +1779,7 @@ header .support a {
 
 .deposit{
     position: relative;
-    margin-top: 70px;
+    margin-top: 55px;
 }
 .balance{
     float: left;
@@ -1740,6 +1788,7 @@ header .support a {
     background-color: #1f265a;
     padding: 30px 50px;
     position: relative;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
 
 }
 .balance .acBalance{
@@ -1756,16 +1805,19 @@ header .support a {
 }
 .counter{
     float: left;
-    width: 665px;
+    width: 670px;
     height: 130px;
     background-color: #040830;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
+
 
 }
 .card{
     float: left;
     width: 50%;
-    padding-top: 10px;
+    padding-top: 13px;
     padding-left: 30px;
+    border: 1px solid  #262c59;
 }
 
 .card span{
@@ -1826,10 +1878,29 @@ header .support a {
     color: #ffffff;
     font-weight: 200;
     text-align: center;
+    padding-top:70px ;
+
+}
+.yourDeposit{
+    background-color: #040830;
+    width: 1170px;
+    height: 1580px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.yourDeposit .item{
+    padding: 50px;
+    padding-top: 70px;
 
 }
 
-
+.item .boxImg{
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+}
+.item .infoDep{
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+}
 .item .boxImg .bold{
     font-size:20px ;
     line-height:40px ;
@@ -1854,7 +1925,7 @@ header .support a {
 
 .boxItem1{
     width: 195px;
-    height: 210px;
+    height: 211px;
     background-color: #9846db;
 }
 .boxItem1{
@@ -1876,7 +1947,7 @@ header .support a {
 }
 .boxItem2{
     width: 195px;
-    height: 210px;
+    height: 211px;
     background-color: #9846db;
 }
 .boxItem2{
@@ -1898,7 +1969,7 @@ header .support a {
 }
 .boxItem3{
     width: 195px;
-    height: 210px;
+    height: 211px;
     background-color: #00b9e1;
 }
 .boxItem3{
@@ -1920,7 +1991,7 @@ header .support a {
 }
 .boxItem4{
     width: 195px;
-    height: 210px;
+    height: 211px;
     background-color: #0387fd;
 }
 .boxItem4{
@@ -2022,30 +2093,23 @@ header .support a {
 
 }
 
+
 .estimate{
     width: 1050px;
     height: 45px;
     background-color: #181c3f;
+    margin-left: 50px;
+    margin-top: -50px;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
 }
 .estimate .text {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     text-align: left;
-
-}
-
-.estimate progress{
-    width: 845px;
-    height: 35px;
-}
-.estimate{
-    position: relative;
-}
-.estimate .progress{
     position: absolute;
-    top: 5px;
-    right: 50px;
+    left: 10px;
+    top: 10px;
 
 }
 .estimate .progress {
@@ -2056,7 +2120,6 @@ header .support a {
     text-align: left;
 
 }
-
 .estimate .progress2 {
     font-size: 24px;
     line-height: 22px;
@@ -2065,39 +2128,12 @@ header .support a {
     text-align: left;
 
 }
-.estimate progress{
-    width: 845px;
-    height: 35px;
-}
-.estimate{
-    position: relative;
-}
-.estimate .progress2{
-    position: absolute;
-    top: 5px;
-    right: 50px;
-
-}
-
 .estimate .progress3 {
     font-size: 24px;
     line-height: 22px;
     color: #00b9e1;
     font-weight: 700;
     text-align: left;
-
-}
-.estimate progress{
-    width: 845px;
-    height: 35px;
-}
-.estimate{
-    position: relative;
-}
-.estimate .progress3{
-    position: absolute;
-    top: 5px;
-    right: 50px;
 
 }
 .estimate .progress4 {
@@ -2108,21 +2144,68 @@ header .support a {
     text-align: left;
 
 }
-.estimate progress{
+.line{
+    height: 35px;
+    background-position: center ;
+    background-repeat: repeat-x;
+    margin-left: 5px;
+    position: absolute;
+
+
+
+}
+.lineZad{
+    background-color: #232853;
     width: 845px;
     height: 35px;
-
-}
-.estimate{
-    position: relative;
-
-}
-.estimate .progress4{
     position: absolute;
     top: 5px;
-    right: 50px;
+    left: 195px;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+}
+
+.estimate{
+    position: relative;
+}
+.estimate .progress{
+    position: absolute;
+    top: 10px;
+    right: 20px;
 
 }
+
+.estimate .progress2{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+}
+
+.estimate .progress3{
+    position: absolute;
+    top:10px;
+    right: 20px;
+
+}
+
+.estimate .progress4{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+}
+.pagination{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.controls, .pageNum{
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+
+
+}
+
 .pageNum li{
     position: relative;
 }
@@ -2167,7 +2250,8 @@ header .support a {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #0387fd;
+    background-color: #232853;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
 }
 .pageNum li[class*="active"]{
     background-color: #9846db;
@@ -2182,28 +2266,23 @@ header .support a {
     border-radius: 100%;
     background-color: #0387fd;
 }
-
-
 .home a {
     font-size: 15px;
     line-height: 40px;
     color: #0387fd;
     text-align: left;
     text-decoration: none;
-
-
 }
 .footer{
     float: left;
-
+    background-color: #040830;
 }
 .footer .copyright{
     float: left;
-
 }
+
 .footer .home{
     float: right;
-
 }
 
 
