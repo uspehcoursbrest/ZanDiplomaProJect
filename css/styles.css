@@ -742,6 +742,7 @@ header .calculator2 span[class*="icon-calculator2"]{
 }
 
 .program p {
+    text-indent: 55px;
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
@@ -2201,10 +2202,12 @@ header .support a {
 .controls, .pageNum{
     display: inline-block;
     vertical-align: middle;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+
+
 
 
 }
+
 
 .pageNum li{
     position: relative;
@@ -2252,6 +2255,7 @@ header .support a {
     border-radius: 100%;
     background-color: #232853;
     box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+
 }
 .pageNum li[class*="active"]{
     background-color: #9846db;
@@ -2263,8 +2267,18 @@ header .support a {
     color: #ffffff;
     text-align: left;
     text-decoration: none;
+    position: absolute;
+    left: 13px;
+    top: -4px;
+}
+.controls{
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     background-color: #0387fd;
+    position: relative;
+    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+
 }
 .home a {
     font-size: 15px;
