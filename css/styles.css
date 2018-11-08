@@ -4,6 +4,8 @@
 
 body {
     margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1200px;
     font-family: "Montserrat";
 }
 
@@ -142,47 +144,57 @@ header .DataTime span[class*="icon-Time"]{
     background: -webkit-linear-gradient(top, #9946db 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #9946db 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9946db', endColorstr='#0088fe',GradientType=0 ); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    vertical-align: middle;
+
 }
 
 header .DataTime .time {
     font-size: 36px;
-    line-height: 17px;
+    line-height: 40px;
     color: #ffffff;
     font-weight: 700;
     text-align: left;
+    vertical-align: middle;
 
 }
 header .DataTime .data {
     font-size: 15px;
-    line-height: 14px;
+    line-height: 40px;
     color: #8f9ac8;
     text-align: left;
+    vertical-align: middle;
 
 }
 
 header .calculator1 span:not(.icon-calculator1) {
     font-size: 15px;
-    line-height: 24px;
+    line-height: 40px;
     color: #8f9ac8;
     text-align: left;
+    vertical-align: middle;
 
 
 }
 header .calculator1 span[class*="icon-calculator1"]{
     line-height: 40px;
     font-size: 36px;
+    vertical-align: middle;
 }
 
 header .calculator2 span:not(.icon-calculator2) {
     font-size: 15px;
-    line-height: 24px;
+    line-height: 40px;
     color: #8f9ac8;
     text-align: left;
+    vertical-align: middle;
 
 }
 header .calculator2 span[class*="icon-calculator2"]{
     line-height: 40px;
     font-size: 36px;
+    vertical-align: middle;
 }
  .logo{
     width: 170px;
