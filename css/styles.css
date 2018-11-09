@@ -28,11 +28,13 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-.invisLink{
+
+.invisLink {
     position: relative;
     z-index: 1;
 }
-.invisLink>a{
+
+.invisLink > a {
     display: block;
     position: absolute;
     left: 0;
@@ -44,106 +46,161 @@ ul {
     text-indent: 200%;
     white-spacing: nowrap;
 }
+
 .clear::after {
     content: "";
     display: block;
     clear: both;
 }
 
+.menu a:hover {
+    color: #9946db;
+}
+
+.topLine a:hover {
+    color: #9946db;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content button:hover {
+    color: #00b9e1;
+    border: none;
+
+}
+
+form .personal input:focus {
+    border: none;
+    background-color: #0188fe;
+
+}
+
+form .login input:focus {
+    border: none;
+    background-color: #9846db;
+
+}
+
+form .e-currency input:focus {
+    border: none;
+    background-color: #00b9e1;
+
+}
+
+.plan .form input:focus {
+    background-color: #8f9ac8;
+}
+
 header {
     background-color: #12173f;
     width: 1920px;
 }
+
 .content {
     background-color: #1a204a;
     width: 1920px;
 }
-.footer{
+
+.footer {
     background-color: #12173f;
     width: 1920px;
 }
-.back1{
+
+.back1 {
     height: 2695px;
     width: 1920px;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
+    margin-top: -60px;
 }
-.back2{
+
+.back2 {
     height: 1745px;
     width: 1920px;
     background-repeat: no-repeat;
-    background-position: center ;
-    margin-top: -300px;
+    background-position: center;
+    margin-top: -325px;
 }
-.back3{
+
+.back3 {
     height: 1245px;
     width: 1920px;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     margin-top: -500px;
 }
-.back4{
+
+.back4 {
     height: 1319px;
     width: 1920px;
     background-repeat: no-repeat;
-    background-position: center ;
-    margin-top: -350px;
+    background-position: center;
+    margin-top: -435px;
     padding-top: 90px;
     padding-right: 0px;
     padding-left: 60px;
     padding-bottom: 60px;
 
 }
-.backDep{
+
+.backDep {
     height: 2245px;
     width: 1920px;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     margin-top: -260px;
     padding-top: 220px;
 
 }
-.backReg{
+
+.backReg {
     height: 1080px;
     width: 1920px;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 17px;
+    margin-left: -4px;
 
 }
 
-
-
-header .table1{
+header .table1 {
     display: table;
     width: 1000px;
-    margin-left: 200px;
+    margin-left: 280px;
+    margin-top: 10px;
     vertical-align: middle;
 
 }
-header .DataTime, .calculator1, .calculator2{
+
+header .DataTime, .calculator1, .calculator2 {
     display: table-cell;
     width: 33.3333%;
     vertical-align: middle;
     margin-left: 50px;
 
 }
-.calculator{
+
+.calculator {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
 }
-.calendar1, .calculator2{
+
+.calendar1, .calculator2 {
     vertical-align: middle;
 }
-header .DataTime span[class*="icon-Time"]{
+
+header .DataTime span[class*="icon-Time"] {
     line-height: 40px;
     font-size: 36px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9946db+1,0088fe+99 */
     background: #9946db; /* Old browsers */
     background: -moz-linear-gradient(top, #9946db 1%, #0088fe 99%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #9946db 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #9946db 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9946db', endColorstr='#0088fe',GradientType=0 ); /* IE6-9 */
+    background: -webkit-linear-gradient(top, #9946db 1%, #0088fe 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9946db 1%, #0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9946db', endColorstr='#0088fe', GradientType=0); /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     vertical-align: middle;
@@ -159,6 +216,7 @@ header .DataTime .time {
     vertical-align: middle;
 
 }
+
 header .DataTime .data {
     font-size: 15px;
     line-height: 40px;
@@ -175,9 +233,9 @@ header .calculator1 span:not(.icon-calculator1) {
     text-align: left;
     vertical-align: middle;
 
-
 }
-header .calculator1 span[class*="icon-calculator1"]{
+
+header .calculator1 span[class*="icon-calculator1"] {
     line-height: 40px;
     font-size: 36px;
     vertical-align: middle;
@@ -191,12 +249,14 @@ header .calculator2 span:not(.icon-calculator2) {
     vertical-align: middle;
 
 }
-header .calculator2 span[class*="icon-calculator2"]{
+
+header .calculator2 span[class*="icon-calculator2"] {
     line-height: 40px;
     font-size: 36px;
     vertical-align: middle;
 }
- .logo{
+
+.logo {
     width: 170px;
     float: left;
 }
@@ -205,17 +265,19 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-decoration: none;
     text-align: left
 }
-.logo{
+
+.logo {
     position: relative;
-    margin-top: 60px;
+    margin-top: 104px;
+    margin-left: -10px;
 }
-.logo .logo1{
+
+.logo .logo1 {
     position: absolute;
     display: block;
     top: 25px;
     left: 45px;
 }
-
 
 .logo .logo1 {
     font-size: 28px;
@@ -223,7 +285,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     text-decoration: none;
     font-weight: 700;
-    text-align:left;
+    text-align: left;
     vertical-align: middle;
 }
 
@@ -235,43 +297,43 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-weight: 300;
     text-align: left;
 }
-.banner .registration .menu{
+
+.menu {
     width: calc(100% - 170px);
     float: right;
     padding-left: 100px;
     margin-top: 65px;
 }
-.banner .registration .menu li{
+
+.menu li {
     display: inline-block;
     margin-right: 30px;
-    margin-top:20px ;
+    margin-top: 20px;
 
 }
-.banner .registration .menu a {
+
+.menu a {
     font-size: 18px;
     line-height: 40px;
     color: #ffffff;
     text-decoration: none;
 
-
 }
-.banner .registration .menu .Login {
+
+.menu .Login {
     display: inline-block;
-    background-color:rgb(38, 45,97) ;
+    background-color: rgb(38, 45, 97);
     height: 30px;
     width: 35px;
     border-radius: 100%;
-    
+
 }
-.banner .registration .menu .Login a{
+
+.menu .Login a {
     display: block;
     text-align: center;
     margin-top: -5px;
 }
-
-
-
-
 
 .registration h1 {
     font-size: 90px;
@@ -279,7 +341,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     font-weight: 100;
     text-align: left;
-    padding-top: 93px;
+    margin-top: 75px;
 
 }
 
@@ -306,7 +368,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 20px;
     border: none;
     width: 310px;
     height: 60px;
@@ -314,20 +376,22 @@ header .calculator2 span[class*="icon-calculator2"]{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a63afe+1,0088fe+99 */
     background: #a63afe; /* Old browsers */
     background: -moz-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #a63afe 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
+    background: -webkit-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a63afe 1%, #0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a63afe', endColorstr='#0088fe', GradientType=1); /* IE6-9 */
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.33);
 
 }
 
-.plan{
+.plan {
     position: relative;
 }
-.plan{
+
+.plan {
     padding-top: 140px;
 }
-.plan .plan1  span{
+
+.plan .plan1 span {
     font-size: 20px;
     line-height: 70px;
     color: #ffffff;
@@ -335,29 +399,35 @@ header .calculator2 span[class*="icon-calculator2"]{
     padding: 60px;
 
 }
+
 .plan .plan1 .header {
-    right: 1000px;
+    left: -110px;
     background-color: #00b9e1;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.33);
 }
-.plan .plan1 .header  {
+
+.plan .plan1 .header {
     position: absolute;
     top: 300px;
     width: 290px;
     transform: rotate(-90deg);
 
 }
+
 .imgPlan1 {
     width: 260px;
     height: 285px;
     background-repeat: no-repeat;
     background-position: left;
+    z-index: 7;
 }
+
 .plan2 .form {
     position: relative;
 
 }
-.plan2 .form .cen{
+
+.plan2 .form .cen {
     display: block;
     position: absolute;
     right: 80px;
@@ -371,9 +441,10 @@ header .calculator2 span[class*="icon-calculator2"]{
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-
+    z-index: 7;
 
 }
+
 .plan2 .form {
     font-size: 30px;
     line-height: 40px;
@@ -384,9 +455,9 @@ header .calculator2 span[class*="icon-calculator2"]{
     padding-left: 45px;
     padding-right: 45px;
 
-
 }
-.plan2 .form input{
+
+.plan2 .form input {
     border-radius: 40px;
     border: 1px solid #666d9d;
     margin-top: 30px;
@@ -401,7 +472,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 36px;
     color: #ffffff;
     text-align: center;
-
 
 }
 
@@ -422,6 +492,10 @@ header .calculator2 span[class*="icon-calculator2"]{
 
 }
 
+.plan3 {
+    z-index: 7;
+}
+
 .imgplan3 {
     width: 260px;
     height: 390px;
@@ -430,7 +504,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: center;
     padding-top: 40px;
     position: relative;
-    z-index: 7;
+
 }
 
 .plan3 .title {
@@ -440,7 +514,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-weight: 700;
     text-align: center;
 
-
 }
 
 .plan3 .percent {
@@ -449,9 +522,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-
-
-
 
 }
 
@@ -497,7 +567,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-size: 14px;
     line-height: 25px;
     color: #ffffff;
-    border-radius:40px ;
+    border-radius: 40px;
     width: 130px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -512,14 +582,15 @@ header .calculator2 span[class*="icon-calculator2"]{
 
 }
 
-.plan .plan4 .header  {
+.plan .plan4 .header {
     position: absolute;
     top: 300px;
     width: 290px;
     transform: rotate(-90deg);
 
 }
-.plan .plan4 .header span{
+
+.plan .plan4 .header span {
     font-size: 20px;
     line-height: 70px;
     color: #ffffff;
@@ -536,26 +607,29 @@ header .calculator2 span[class*="icon-calculator2"]{
     background-position: center;
 }
 
-
-.plan1, .plan2, .plan3, .plan4{
+.plan1, .plan2, .plan3, .plan4 {
     display: inline-block;
     vertical-align: middle;
-    margin-left: -10px;
     margin-bottom: 70px;
+}
+
+.plan2, .plan3, .plan4 {
+    margin-left: -10px;
 }
 
 .statistic .cards {
     float: left;
     width: 20%;
     text-align: center;
-    border-right-color: #20275a ;
+    border-right-color: #20275a;
     border-right-style: solid;
     border-right-width: 1px;
-    margin-top: 130px;
+    margin-top: 105px;
     margin-bottom: 140px;
 
 }
-.statistic .cards span:first-child{
+
+.statistic .cards span:first-child {
     line-height: 70px;
     font-size: 48px;
 }
@@ -585,8 +659,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: center;
     padding-bottom: 100px;
 
-
 }
+
 .about h2 span {
     font-size: 90px;
     line-height: 110px;
@@ -604,19 +678,16 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: center;
 }
 
-.about .description, .documents{
+.about .description, .documents {
     background-color: #232853;
     height: 745px;
     width: 1170px;
     padding: 100px 20px;
     margin-bottom: 165px;
 
-
-
 }
 
-
-.about  .description {
+.about .description {
     float: left;
     width: 50%;
 
@@ -629,7 +700,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: left;
 }
 
-.about  .description .ul {
+.about .description .ul {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
@@ -659,48 +730,56 @@ header .calculator2 span[class*="icon-calculator2"]{
     background-repeat: no-repeat;
     background-position: left center;
 }
-.about .documents .adress{
+
+.about .documents .adress {
     position: relative;
 }
-.about .documents .adress .text1{
+
+.about .documents .adress .text1 {
     display: block;
     position: absolute;
     left: 40px;
     top: -5px;
 }
-.about .documents .adress .text2{
+
+.about .documents .adress .text2 {
     display: block;
     position: absolute;
     left: 40px;
     top: 25px;
 
-
 }
-.about .adress span:first-child{
+
+.about .adress span:first-child {
     line-height: 45px;
     font-size: 48px;
 }
-.about .documents .number{
+
+.about .documents .number {
     position: relative;
     margin-top: 60px;
 }
-.about .documents .number .text1{
+
+.about .documents .number .text1 {
     display: block;
     position: absolute;
     left: 45px;
     top: -5px;
 }
-.about .documents .number .text2{
+
+.about .documents .number .text2 {
     display: block;
     position: absolute;
     left: 45px;
     top: 25px;
 
 }
-.about .number span:first-child{
-     line-height: 45px;
-     font-size: 48px;
- }
+
+.about .number span:first-child {
+    line-height: 45px;
+    font-size: 48px;
+}
+
 .about .documents .text1 {
     font-size: 15px;
     line-height: 30px;
@@ -709,6 +788,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: left;
 
 }
+
 .about .documents .text2 {
     font-size: 15px;
     line-height: 30px;
@@ -716,8 +796,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-weight: 700;
     text-align: left;
 }
-
-
 
 .about .documents button {
     font-size: 17px;
@@ -734,11 +812,10 @@ header .calculator2 span[class*="icon-calculator2"]{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a63afe+1,0088fe+99 */
     background: #a63afe; /* Old browsers */
     background: -moz-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #a63afe 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
-
+    background: -webkit-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a63afe 1%, #0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a63afe', endColorstr='#0088fe', GradientType=1); /* IE6-9 */
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
 }
 
@@ -750,7 +827,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: center;
     padding-top: 175px;
 
-
 }
 
 .program p {
@@ -760,8 +836,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     margin-top: 70px;
     text-align: center;
-
-
 
 }
 
@@ -774,7 +848,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-transform: uppercase;
 
 }
-.program img{
+
+.program img {
     padding-left: 220px;
     margin-bottom: 95px;
     margin-top: 110px;
@@ -804,14 +879,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a63afe+1,0088fe+99 */
     background: #a63afe; /* Old browsers */
     background: -moz-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 99%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #a63afe 1%,#0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
+    background: -webkit-linear-gradient(left, #a63afe 1%, #0088fe 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a63afe 1%, #0088fe 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a63afe', endColorstr='#0088fe', GradientType=1); /* IE6-9 */
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
 }
-
-
 
 .advantages h2 {
     font-size: 50px;
@@ -823,7 +896,6 @@ header .calculator2 span[class*="icon-calculator2"]{
     padding-top: 220px;
 }
 
-
 .advantages .item1 .title1 {
     font-size: 24px;
     line-height: 22px;
@@ -833,10 +905,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     margin-left: 95px;
 
 }
-.advantages .item1{
+
+.advantages .item1 {
     position: relative;
 }
-.advantages .item1 span[class*="icon-"]{
+
+.advantages .item1 span[class*="icon-"] {
     display: block;
     position: absolute;
     bottom: -425px;
@@ -845,7 +919,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-size: 48px;
     color: #c279ff;
 }
-.advantages .item1 .title1, .mintext1{
+
+.advantages .item1 .title1, .mintext1 {
     display: block;
     position: absolute;
     left: 50px;
@@ -862,10 +937,11 @@ header .calculator2 span[class*="icon-calculator2"]{
 
 }
 
-.advantages .item2{
+.advantages .item2 {
     position: relative;
 }
-.advantages .item2 span[class*="icon-"]{
+
+.advantages .item2 span[class*="icon-"] {
     display: block;
     position: absolute;
     bottom: -405px;
@@ -874,13 +950,15 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-size: 48px;
     color: #329cfe;
 }
-.advantages .item2 .title2, .mintext2{
+
+.advantages .item2 .title2, .mintext2 {
     display: block;
     position: absolute;
     left: 470px;
     top: 520px;
 
 }
+
 .advantages .item3 .title3 {
     font-size: 24px;
     line-height: 22px;
@@ -889,10 +967,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: right;
     margin-left: 45px;
 }
-.advantages .item3{
+
+.advantages .item3 {
     position: relative;
 }
-.advantages .item3 span[class*="icon-"]{
+
+.advantages .item3 span[class*="icon-"] {
     display: block;
     position: absolute;
     bottom: -350px;
@@ -901,7 +981,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 50px;
     font-size: 48px;
 }
-.advantages .item3 .title3, .mintext3{
+
+.advantages .item3 .title3, .mintext3 {
     display: block;
     position: absolute;
     left: 450px;
@@ -916,10 +997,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     font-weight: 300;
     text-align: left;
 }
-.advantages .item4{
+
+.advantages .item4 {
     position: relative;
 }
-.advantages .item4 span[class*="icon-"]{
+
+.advantages .item4 span[class*="icon-"] {
     display: block;
     position: absolute;
     bottom: -245px;
@@ -928,7 +1011,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 50px;
     font-size: 48px;
 }
-.advantages .item4 .title4, .mintext4{
+
+.advantages .item4 .title4, .mintext4 {
     display: block;
     position: absolute;
     left: 920px;
@@ -944,10 +1028,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     text-align: left;
     margin-left: 55px;
 }
-.advantages .item5{
+
+.advantages .item5 {
     position: relative;
 }
-.advantages .item5 span[class*="icon-"]{
+
+.advantages .item5 span[class*="icon-"] {
     display: block;
     position: absolute;
     bottom: -75px;
@@ -956,7 +1042,8 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 50px;
     font-size: 48px;
 }
-.advantages .item5 .title5, .mintext5{
+
+.advantages .item5 .title5, .mintext5 {
     display: block;
     position: absolute;
     left: 720px;
@@ -999,6 +1086,7 @@ header .calculator2 span[class*="icon-calculator2"]{
     color: #ffffff;
     text-align: right;
 }
+
 .analysiswork .analysis {
     float: left;
     width: 50%;
@@ -1009,10 +1097,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     width: 50%;
 
 }
-.analysiswork .analysis{
+
+.analysiswork .analysis {
     position: relative;
 }
-.analysiswork .analysis span{
+
+.analysiswork .analysis span {
     position: absolute;
     display: block;
     top: 375px;
@@ -1020,10 +1110,12 @@ header .calculator2 span[class*="icon-calculator2"]{
     line-height: 90px;
     font-size: 72px;
 }
-.analysiswork .work{
+
+.analysiswork .work {
     position: relative;
 }
-.analysiswork .work span{
+
+.analysiswork .work span {
     position: absolute;
     display: block;
     top: 365px;
@@ -1063,9 +1155,10 @@ header .calculator2 span[class*="icon-calculator2"]{
     width: 185px;
     height: 45px;
     margin-top: 70px;
-    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
 }
+
 .analysiswork .work button {
     font-size: 17px;
     line-height: 36px;
@@ -1079,14 +1172,15 @@ header .calculator2 span[class*="icon-calculator2"]{
     height: 45px;
     margin-top: 70px;
     margin-bottom: 100px;
-    box-shadow:  5px  0 5px rgba(0,0,0,0.11);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 }
 
-.cooperation{
+.cooperation {
     display: table;
     width: 100%;
 
 }
+
 .cooperation img {
     vertical-align: middle;
     margin-right: 50px;
@@ -1109,12 +1203,12 @@ footer .logo, .menuFotter, .support, .address {
     margin-right: 65px;
     margin-left: 20px;
 }
-footer .copyright{
+
+footer .copyright {
     width: 250px;
     margin-top: 45px;
 
 }
-
 
 .copyright span {
     font-size: 15px;
@@ -1122,19 +1216,18 @@ footer .copyright{
     color: #ffffff;
     text-align: left;
 
-
 }
 
-.menuFotter{
-    padding-left:50px;
+.menuFotter {
+    padding-left: 50px;
 }
+
 .menuFotter a {
     font-size: 15px;
     line-height: 40px;
     color: #ffffff;
     text-align: left;
     text-decoration: none;
-
 
 }
 
@@ -1145,9 +1238,10 @@ footer h3 {
     text-align: left;
 }
 
-.support, .address{
+.support, .address {
     padding-left: 30px;
 }
+
 .support a {
     font-size: 15px;
     line-height: 40px;
@@ -1155,9 +1249,11 @@ footer h3 {
     text-align: left;
 
 }
-.support span[class*="icon-"]{
+
+.support span[class*="icon-"] {
     color: #0387fd;
 }
+
 .support .soc {
     font-size: 15px;
     line-height: 40px;
@@ -1165,7 +1261,6 @@ footer h3 {
     text-align: left;
 
 }
-
 
 footer .address span {
     font-size: 15px;
@@ -1175,27 +1270,27 @@ footer .address span {
 
 }
 
-
-
-
-.head  {
+.head {
     text-decoration: none;
     text-align: center;
 
+}
+
+.head img {
+    margin-top: 65px;
+    margin-left: 15px;
 
 }
-.head img{
-    margin-top: 90px;
 
-}
-.head{
+.head {
     position: relative;
 }
-.head .logo1{
+
+.head .logo1 {
     position: absolute;
     display: block;
-    margin-left: 520px;
-
+    margin-left: 540px;
+    margin-top: 12px;
 
 }
 
@@ -1224,70 +1319,81 @@ footer .address span {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 50px;
+    margin-left: 45px;
+    text-transform: uppercase;
 }
 
- .form1 {
+.form1 {
     float: left;
     width: 100%;
     margin-top: 55px;
 }
- .personal, .login, .e-currency{
+
+.personal, .login, .e-currency {
     float: left;
     width: 33.3333%;
     text-align: left;
 
 }
- .personal{
+
+.personal {
     position: revert;
 }
- .personal h2{
+
+.personal h2 {
     display: block;
     position: absolute;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: 28px;
 
 }
-.personal .per1 label{
-     display: block;
-     position: absolute;
-     margin-top: 60px;
-    margin-left: 40px;
 
- }
-.personal .per1 input{
+.personal .per1 label {
     display: block;
     position: absolute;
-    margin-top: 140px;
-    margin-left: 40px;
+    margin-top: 90px;
+    margin-left: 53px;
 
 }
-.personal .per2 label{
+
+.personal .per1 input {
     display: block;
     position: absolute;
-    margin-top: 160px;
-    margin-left: 40px;
+    margin-top: 165px;
+    margin-left: 55px;
 
 }
-.personal .per2 input{
+
+.personal .per2 label {
     display: block;
     position: absolute;
-    margin-top: 240px;
-    margin-left: 40px;
+    margin-top: 190px;
+    margin-left: 53px;
 
 }
-.personal .per3 label{
+
+.personal .per2 input {
     display: block;
     position: absolute;
-    margin-top: 260px;
-    margin-left: 40px;
+    margin-top: 265px;
+    margin-left: 54px;
 
 }
-.personal .per3 input{
+
+.personal .per3 label {
     display: block;
     position: absolute;
-    margin-top: 340px;
-    margin-left:40px;
+    margin-top: 290px;
+    margin-left: 53px;
+
+}
+
+.personal .per3 input {
+    display: block;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 54px;
 
 }
 
@@ -1306,7 +1412,8 @@ footer .address span {
     text-align: left;
 
 }
-.personal input{
+
+.personal input {
     width: 295px;
     height: 40px;
     border-radius: 40px;
@@ -1314,60 +1421,65 @@ footer .address span {
     background-color: #313970;
 }
 
-.login{
+.login {
     position: revert;
 }
-.login h2{
-    display: block;
-    position: absolute;
-    margin-left: 440px;
-    margin-top: 20px;
 
-}
-.login .log1 label{
+.login h2 {
     display: block;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 440px;
-
-}
-.login .log1 input{
-    display: block;
-    position: absolute;
-    margin-top: 140px;
-    margin-left: 440px;
-
-}
-.login .log2 label{
-    display: block;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 440px;
-
-}
-.login .log2 input{
-    display: block;
-    position: absolute;
-    margin-top: 240px;
-    margin-left: 440px;
-
-}
-.login .log3 label{
-    display: block;
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 440px;
-
-}
-.login .log3 input{
-    display: block;
-    position: absolute;
-    margin-top: 340px;
-    margin-left:440px;
+    margin-left: 451px;
+    margin-top: 28px;
 
 }
 
+.login .log1 label {
+    display: block;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 455px;
 
+}
+
+.login .log1 input {
+    display: block;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 455px;
+
+}
+
+.login .log2 label {
+    display: block;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 455px;
+
+}
+
+.login .log2 input {
+    display: block;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 455px;
+
+}
+
+.login .log3 label {
+    display: block;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 455px;
+
+}
+
+.login .log3 input {
+    display: block;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 455px;
+
+}
 
 .login h2 {
     font-size: 24px;
@@ -1383,7 +1495,8 @@ footer .address span {
     color: #ffffff;
     text-align: left;
 }
-.login input{
+
+.login input {
     width: 295px;
     height: 40px;
     border-radius: 40px;
@@ -1397,75 +1510,81 @@ footer .address span {
     color: #00b9e1;
     text-align: left;
 }
-.e-currency{
+
+.e-currency {
     position: revert;
 }
-.e-currency h2{
+
+.e-currency h2 {
     display: block;
     position: absolute;
-    margin-left: 850px;
-    margin-top: 20px;
+    margin-left: 855px;
+    margin-top: 28px;
 }
-.e-currency .ecur1{
+
+.e-currency .ecur1 {
     display: block;
     position: absolute;
-    margin-top: 140px;
+    margin-top: 163px;
     margin-left: 860px;
 }
-.e-currency .ecur1 img{
+
+.e-currency .ecur1 img {
     display: block;
     position: absolute;
     margin-top: -40px;
-    margin-left: 250px;
+    margin-left: 260px;
 }
 
-
-.e-currency .ecur2{
+.e-currency .ecur2 {
     display: block;
     position: absolute;
-    margin-top: 205px;
+    margin-top: 230px;
     margin-left: 860px;
 }
-.e-currency .ecur2 img{
+
+.e-currency .ecur2 img {
     display: block;
     position: absolute;
     margin-top: -40px;
-    margin-left: 250px;
+    margin-left: 260px;
 }
-.e-currency .ecur3{
+
+.e-currency .ecur3 {
     display: block;
     position: absolute;
-    margin-top: 270px;
+    margin-top: 296px;
     margin-left: 860px;
 }
-.e-currency .ecur3 img{
+
+.e-currency .ecur3 img {
     display: block;
     position: absolute;
     margin-top: -40px;
-    margin-left: 250px;
+    margin-left: 260px;
 }
-.e-currency .ecur4{
+
+.e-currency .ecur4 {
     display: block;
     position: absolute;
-    margin-top: 340px;
+    margin-top: 363px;
     margin-left: 860px;
 }
-.e-currency .ecur4 img{
+
+.e-currency .ecur4 img {
     display: block;
     position: absolute;
     margin-top: -40px;
-    margin-left: 250px;
+    margin-left: 260px;
 }
 
-
-.e-currency input{
+.e-currency input {
     width: 295px;
     height: 45px;
     border-radius: 45px;
     border: none;
     background-color: #313970;
 }
-
 
 .footclear label {
     font-size: 17px;
@@ -1474,23 +1593,25 @@ footer .address span {
     text-align: left;
 }
 
-.footclear input{
+.footclear input {
 
     margin-top: 500px;
     margin-left: 440px;
 
 }
-.footclear label{
+
+.footclear label {
     margin-top: 455px;
     margin-left: 0px;
 }
+
 .footclear button {
     font-size: 20px;
     line-height: 36px;
     color: #ffffff;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-left: 450px;
+    margin-top: -3px;
+    margin-left: 460px;
     width: 290px;
     height: 65px;
     border-radius: 65px;
@@ -1498,17 +1619,20 @@ footer .address span {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a63afe+1,0088fe+100 */
     background: #a63afe; /* Old browsers */
     background: -moz-linear-gradient(left, #a63afe 1%, #0088fe 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #a63afe 1%,#0088fe 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #a63afe 1%,#0088fe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63afe', endColorstr='#0088fe',GradientType=1 ); /* IE6-9 */
-    box-shadow: 5px  0 5px rgba(0,0,0,0.11);
-}
-.foot .copyright{
-    margin-left:470px;
-    margin-top: 50px;
+    background: -webkit-linear-gradient(left, #a63afe 1%, #0088fe 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a63afe 1%, #0088fe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a63afe', endColorstr='#0088fe', GradientType=1); /* IE6-9 */
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 }
 
+.foot .copyright {
+    margin-left: 483px;
+    margin-top: 30px;
+}
 
+.foot .copyright span:last-child {
+    margin-left: 50px;
+}
 
 header .support a {
     font-size: 15px;
@@ -1519,12 +1643,14 @@ header .support a {
 
 }
 
-.support span[class*="icon-"]{
+.support span[class*="icon-"] {
     color: #0387fd;
 }
-.support a{
-   padding-right: 30px;
+
+.support a {
+    padding-right: 30px;
 }
+
 .support .soc {
     font-size: 15px;
     line-height: 40px;
@@ -1532,30 +1658,77 @@ header .support a {
     text-align: left;
 
 }
+
 .account span {
     font-size: 15px;
     line-height: 40px;
     color: #8f9ac8;
 
 }
-.top{
+
+.logoDep {
+    width: 170px;
+    float: left;
+}
+
+.logoDep a {
+    text-decoration: none;
+    text-align: left
+}
+
+.logoDep {
+    position: relative;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+.logoDep .logo1 {
+    position: absolute;
+    display: block;
+    top: 25px;
+    left: 45px;
+}
+
+.logoDep .logo1 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.logoDep .logo2 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: left;
+}
+
+.top {
     margin-top: 50px;
 }
-.right{
+
+.right {
     float: left;
     width: calc(100% - 170px);
 }
-.right .top{
+
+.right .top {
     display: table;
     width: 100%;
     margin-left: 200px;
+    margin-top: 15px;
 }
-.top .support{
+
+.top .support {
     display: table-cell;
     width: 550px;
 
 }
-
 
 .account a {
     font-size: 15px;
@@ -1565,35 +1738,41 @@ header .support a {
     text-transform: uppercase;
 
 }
-.account img{
+
+.account img {
     margin-left: 35px;
+    margin-top: 5px;
 
 }
-.bottom{
+
+.bottom {
     float: left;
-    width:calc(100% - 170px) ;
-    margin-top: 20px;
+    width: calc(100% - 170px);
+    margin-top: 15px;
 }
-.right .bottom{
+
+.right .bottom {
     display: table;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
-.topLine{
+.topLine {
     display: table;
     width: 100%;
     padding-top: 40px;
 }
-.topLine li{
+
+.topLine li {
     display: table-cell;
     vertical-align: middle;
     width: 9.0909%;
     border: 1px solid #313769;
     text-align: left;
-    padding:10px;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
+    padding: 10px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 }
+
 .topLine a {
     font-size: 15px;
     line-height: 22px;
@@ -1601,10 +1780,10 @@ header .support a {
     text-decoration: none;
 
 }
-.topLine{
+
+.topLine {
     position: relative;
 }
-
 
 .deposit1 span {
     font-size: 30px;
@@ -1614,85 +1793,97 @@ header .support a {
     font-weight: 200;
 
 }
-.banner1{
-    margin-top: 35px;
+
+.banner1 {
+    margin-top: 52px;
 }
-.bannerDep{
+
+.bannerDep {
     float: left;
     width: 100%;
     position: relative;
     margin-top: 50px;
-    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.55);
 }
-.bannerDep{
-     width: 1170px;
-     height: 130px;
-     background-color: #040830;
 
- }
+.bannerDep {
+    width: 1170px;
+    height: 130px;
+    background-color: #040830;
 
-.deposit1{
+}
+
+.deposit1 {
     width: 80px;
     height: 130px;
     background-color: #0387fd;
     float: left;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 }
-.deposit1 span{
+
+.deposit1 span {
     position: absolute;
     top: 35px;
-    left: 130px;
+    left: 148px;
 }
-.deposit1 img{
+
+.deposit1 img {
     position: absolute;
-    top: 30px;
-    left: 13px;
+    top: 37px;
+    left: 15px;
 }
-.withdraw{
+
+.withdraw {
     width: 80px;
     height: 130px;
     background-color: #00b9e1;
     float: right;
     position: absolute;
     right: 0px;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 }
-.withdraw img{
+
+.withdraw img {
     position: absolute;
-    top: 30px;
+    top: 39px;
     left: 13px;
 }
-.withdraw span{
+
+.withdraw span {
     position: absolute;
     top: 35px;
     left: -190px;
 }
-.accountInfo{
+
+.accountInfo {
     width: 210px;
     height: 190px;
     background-color: #9846db;
     position: revert;
-    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.55);
 }
-.accountInfo{
+
+.accountInfo {
     position: absolute;
     top: -30px;
     left: 330px;
 
 }
-.accountInfo img{
+
+.accountInfo img {
     position: absolute;
     left: 70px;
-    top: 20px;
+    top: 15px;
 
 }
+
 .accountInfo .userName {
     font-size: 15px;
     line-height: 27px;
     color: #ffffff;
     text-align: center;
     position: absolute;
-    left: 60px;
+    left: 65px;
     top: 90px;
 }
 
@@ -1703,8 +1894,8 @@ header .support a {
     text-align: center;
     font-weight: 700;
     position: absolute;
-    left: 30px;
-    top: 120px;
+    left: 34px;
+    top: 115px;
 
 }
 
@@ -1714,64 +1905,75 @@ header .support a {
     color: #000325;
     text-align: center;
     position: absolute;
-    left: 60px;
+    left: 65px;
     top: 150px;
 
 }
-.accountInfo a img{
+
+.accountInfo a img {
     position: absolute;
     left: -25px;
     top: 7px;
 }
-.calendar{
+
+.calendar {
     background-color: #1f265a;
     width: 290px;
     height: 190px;
     position: relative;
-    box-shadow: 0px 0px 33px rgba(0,0,0,0.55) ;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.55);
 }
-.calendar{
+
+.calendar {
     position: absolute;
     top: -30px;
     left: 540px;
 }
+
 .calendar1 {
-    position:absolute ;
+    position: absolute;
     top: 30px;
     left: 40px;
 }
+
 .calendar2 {
-    position:absolute ;
+    position: absolute;
     top: 100px;
     left: 40px;
 
 }
-.calendar1  span{
+
+.calendar1 span {
     position: relative;
-    top: -25px;
-    left: 20px;
+    top: -20px;
+    left: 35px;
 }
-.calendar1 .data{
+
+.calendar1 .data {
     position: absolute;
-    top: 25px;
-    left: 60px;
+    top: 29px;
+    left: 76px;
 }
-.calendar2  span{
+
+.calendar2 span {
     position: relative;
-    top: -30px;
-    left: 20px;
+    top: -20px;
+    left: 30px;
 }
-.calendar2 .data{
+
+.calendar2 .data {
     position: relative;
-    top: -30px;
-    left: 65px;
+    top: -20px;
+    left: 77px;
 }
+
 .calendar span {
     font-size: 15px;
     line-height: 24px;
     color: #ffffff;
     text-align: left;
 }
+
 .calendar .data {
     font-size: 15px;
     line-height: 24px;
@@ -1790,65 +1992,67 @@ header .support a {
 
 }
 
-.deposit{
+.deposit {
     position: relative;
-    margin-top: 55px;
+    margin-top: 65px;
 }
-.balance{
+
+.balance {
     float: left;
     width: 500px;
     height: 130px;
     background-color: #1f265a;
     padding: 30px 50px;
     position: relative;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 
 }
-.balance .acBalance{
+
+.balance .acBalance {
     position: absolute;
     display: block;
-    left: 150px;
-    top: 20px;
+    left: 143px;
+    top: 24px;
 }
-.balance span:last-child{
+
+.balance span:last-child {
     position: absolute;
     display: block;
-    top: 55px;
-    left: 150px;
+    top: 64px;
+    left: 147px;
 }
-.counter{
+
+.counter {
     float: left;
     width: 670px;
     height: 130px;
     background-color: #040830;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.33) ;
-
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 
 }
-.card{
+
+.card {
     float: left;
     width: 50%;
     padding-top: 13px;
     padding-left: 30px;
-    border: 1px solid  #262c59;
+    border: 1px solid #262c59;
 }
 
-.card span{
+.card span {
     display: inline-block;
     padding-left: 50px;
 
-
-
 }
-.card{
+
+.card {
     position: relative;
 }
 
-.card .title{
+.card .title {
     position: absolute;
 
 }
-
 
 .balance .acBalance {
     font-size: 17px;
@@ -1884,49 +2088,53 @@ header .support a {
 
 }
 
-
 .yourDeposit h1 {
     font-size: 50px;
     line-height: 50px;
     color: #ffffff;
     font-weight: 200;
     text-align: center;
-    padding-top:70px ;
-
-}
-.yourDeposit{
-    background-color: #040830;
-    width: 1170px;
-    height: 1580px;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.yourDeposit .item{
-    padding: 50px;
     padding-top: 70px;
 
 }
 
-.item .boxImg{
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+.yourDeposit {
+    background-color: #040830;
+    width: 1170px;
+    height: 1470px;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
-.item .infoDep{
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+
+.yourDeposit .item {
+    padding-top: 70px;
+    padding-left: 58px;
 }
-.item .boxImg .bold{
-    font-size:20px ;
-    line-height:40px ;
+
+.item .boxImg {
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
+}
+
+.item .infoDep {
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
+}
+
+.item .boxImg .bold {
+    font-size: 20px;
+    line-height: 40px;
     color: #ffffff;
     font-weight: 700;
 
 }
-.item .boxImg .boldBig{
-    font-size:50px ;
-    line-height:50px ;
+
+.item .boxImg .boldBig {
+    font-size: 50px;
+    line-height: 50px;
     color: #ffffff;
     font-weight: 700;
 }
+
 .item .boxImg span:last-child {
     font-size: 15px;
     line-height: 22px;
@@ -1935,121 +2143,148 @@ header .support a {
 
 }
 
+.boxItem1 {
+    width: 195px;
+    height: 211px;
+    background-color: #9846db;
+}
 
-.boxItem1{
-    width: 195px;
-    height: 211px;
-    background-color: #9846db;
-}
-.boxItem1{
+.boxItem1 {
     position: relative;
 }
-.boxItem1 .bold{
+
+.boxItem1 .bold {
     position: absolute;
     left: 50px;
     top: 50px;
-}.boxItem1 .boldBig{
-     position: absolute;
-     left: 50px;
-     top: 80px;
- }
-.boxItem1 span:last-child{
+}
+
+.boxItem1 .boldBig {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.boxItem1 span:last-child {
     position: absolute;
     left: 75px;
     top: 130px;
 }
-.boxItem2{
+
+.boxItem2 {
     width: 195px;
     height: 211px;
     background-color: #9846db;
 }
-.boxItem2{
+
+.boxItem2 {
     position: relative;
 }
-.boxItem2 .bold{
+
+.boxItem2 .bold {
     position: absolute;
     left: 50px;
     top: 50px;
-}.boxItem2 .boldBig{
-     position: absolute;
-     left: 50px;
-     top: 80px;
- }
-.boxItem2 span:last-child{
+}
+
+.boxItem2 .boldBig {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.boxItem2 span:last-child {
     position: absolute;
     left: 75px;
     top: 130px;
 }
-.boxItem3{
+
+.boxItem3 {
     width: 195px;
     height: 211px;
     background-color: #00b9e1;
 }
-.boxItem3{
+
+.boxItem3 {
     position: relative;
 }
-.boxItem3 .bold{
+
+.boxItem3 .bold {
     position: absolute;
     left: 50px;
     top: 50px;
-}.boxItem3 .boldBig{
-     position: absolute;
-     left: 50px;
-     top: 80px;
- }
-.boxItem3 span:last-child{
+}
+
+.boxItem3 .boldBig {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.boxItem3 span:last-child {
     position: absolute;
     left: 75px;
     top: 130px;
 }
-.boxItem4{
+
+.boxItem4 {
     width: 195px;
     height: 211px;
     background-color: #0387fd;
 }
-.boxItem4{
+
+.boxItem4 {
     position: relative;
 }
-.boxItem4 .bold{
+
+.boxItem4 .bold {
     position: absolute;
     left: 70px;
     top: 50px;
-}.boxItem4 .boldBig{
-     position: absolute;
-     left: 50px;
-     top: 80px;
- }
-.boxItem4 span:last-child{
+}
+
+.boxItem4 .boldBig {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.boxItem4 span:last-child {
     position: absolute;
     left: 75px;
     top: 130px;
 }
-.boxImg{
+
+.boxImg {
     float: left;
     width: 195px;
 
-
 }
-.infoDep{
+
+.infoDep {
     width: 855px;
 
     float: left;
 }
-.boxData{
+
+.boxData {
     width: 25%;
     float: left;
     background-color: #3b4577;
     height: 60px;
 }
-.boxData span{
+
+.boxData span {
     display: inline-block;
 }
-.box{
+
+.box {
     width: 25%;
     float: left;
     background-color: #232853;
 }
-.box span{
+
+.box span {
     display: inline-block;
 }
 
@@ -2069,12 +2304,14 @@ header .support a {
     font-weight: 700;
 
 }
-.item .boxData{
+
+.item .boxData {
     position: relative;
     padding: 15px;
 
 }
-.item .boxData .title1{
+
+.item .boxData .title1 {
     position: absolute;
 }
 
@@ -2094,27 +2331,28 @@ header .support a {
     text-align: left;
 
 }
-.item .box{
+
+.item .box {
     position: relative;
     padding: 15px;
-    border:  1px solid #3b4577;
+    border: 1px solid #3b4577;
 
 }
-.item .box .title{
+
+.item .box .title {
     position: absolute;
 
-
 }
 
-
-.estimate{
+.estimate {
     width: 1050px;
     height: 45px;
     background-color: #181c3f;
-    margin-left: 50px;
-    margin-top: -50px;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+    margin-left: 56px;
+    margin-bottom: -31px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
 }
+
 .estimate .text {
     font-size: 15px;
     line-height: 22px;
@@ -2125,6 +2363,7 @@ header .support a {
     top: 10px;
 
 }
+
 .estimate .progress {
     font-size: 24px;
     line-height: 22px;
@@ -2133,6 +2372,7 @@ header .support a {
     text-align: left;
 
 }
+
 .estimate .progress2 {
     font-size: 24px;
     line-height: 22px;
@@ -2141,6 +2381,7 @@ header .support a {
     text-align: left;
 
 }
+
 .estimate .progress3 {
     font-size: 24px;
     line-height: 22px;
@@ -2149,6 +2390,7 @@ header .support a {
     text-align: left;
 
 }
+
 .estimate .progress4 {
     font-size: 24px;
     line-height: 22px;
@@ -2157,101 +2399,106 @@ header .support a {
     text-align: left;
 
 }
-.line{
+
+.line {
     height: 35px;
-    background-position: center ;
+    background-position: center;
     background-repeat: repeat-x;
     margin-left: 5px;
     position: absolute;
 
-
-
 }
-.lineZad{
+
+.lineZad {
     background-color: #232853;
     width: 845px;
     height: 35px;
     position: absolute;
     top: 5px;
     left: 195px;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51) ;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
 }
 
-.estimate{
+.estimate {
     position: relative;
 }
-.estimate .progress{
+
+.estimate .progress {
     position: absolute;
     top: 10px;
     right: 20px;
 
 }
 
-.estimate .progress2{
+.estimate .progress2 {
     position: absolute;
     top: 10px;
     right: 20px;
 
 }
 
-.estimate .progress3{
-    position: absolute;
-    top:10px;
-    right: 20px;
-
-}
-
-.estimate .progress4{
+.estimate .progress3 {
     position: absolute;
     top: 10px;
     right: 20px;
 
 }
-.pagination{
-    margin-left: 450px;
-    margin-top: 50px;
+
+.estimate .progress4 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
 }
-.controls, .pageNum{
+
+.pagination {
+    margin-left: 386px;
+    margin-top: 78px;
+}
+
+.controls, .pageNum {
     display: inline-block;
     vertical-align: middle;
 
-
-
-
 }
 
-
-.pageNum li{
+.pageNum li {
     position: relative;
 }
-.pageNum .one a{
-    position: absolute;
-    top: 10px;
-    left: 22px;
-}
-.pageNum .active a{
-    position: absolute;
-    top: 10px;
-    left: 20px;
 
-}
-.pageNum .three a{
+.pageNum .one a {
     position: absolute;
-    top: 10px;
-    left: 20px;
-}
-.pageNum .four a{
-    position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 6px;
+    left: 16px;
 }
 
+.pageNum .active a {
+    position: absolute;
+    top: 6px;
+    left: 15px;
 
-.pageNum li{
+}
+
+.pageNum .three a {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+}
+
+.pageNum .four a {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+}
+
+.pageNum li {
     display: inline-block;
     vertical-align: middle;
     padding-left: 30px;
+    margin-right: -2px;
+    margin-left: 7px;
 }
+
 .pagination .pageNum a {
     font-size: 17px;
     line-height: 30px;
@@ -2259,17 +2506,20 @@ header .support a {
     text-align: left;
     text-decoration: none;
 
-
 }
-.pagination .pageNum li{
-    width: 50px;
-    height: 50px;
+
+.pagination .pageNum li {
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background-color: #232853;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
+
+
 
 }
-.pageNum li[class*="active"]{
+
+.pageNum li[class*="active"] {
     background-color: #9846db;
 }
 
@@ -2280,35 +2530,51 @@ header .support a {
     text-align: left;
     text-decoration: none;
     position: absolute;
-    left: 13px;
-    top: -4px;
+    left: 7px;
+    top: -9px;
 }
-.controls{
-    width: 50px;
-    height: 50px;
+
+.controls {
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     background-color: #0387fd;
     position: relative;
-    box-shadow: 0px 0px 21px rgba(0,0,0,0.51);
+    margin-left: 31px;
+    margin-right: 23px;
+    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
 
 }
+
 .home a {
     font-size: 15px;
     line-height: 40px;
     color: #0387fd;
     text-align: left;
     text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
-.footer{
-    float: left;
-    background-color: #040830;
-}
-.footer .copyright{
-    float: left;
+.home img{
+    margin-top: 15px;
 }
 
-.footer .home{
+.footer {
+    float: left;
+    background-color: #040830;
+    margin-top:-30px;
+}
+
+.footer .copyright {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer .home {
     float: right;
+
 }
 
 
