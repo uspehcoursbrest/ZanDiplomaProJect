@@ -326,10 +326,10 @@ header .calculator2 span:not(.icon-calculator1) {
 .menu li:not(.Login):before{
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius:50% ;
-    background-color: #12173f;
+    background-color: #012a73;
     position: absolute;
     top: 129px;
     margin-left: -18px;
@@ -801,8 +801,8 @@ header .calculator2 span:not(.icon-calculator1) {
 .about .description li:before{
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius:50% ;
     background-color: #9846db;
     position: absolute;
@@ -1208,7 +1208,7 @@ header .calculator2 span:not(.icon-calculator1) {
     margin-top: 330px;
     margin-left: -31px;
     border-top:5px solid #9846db ;
-    border-right:1px solid #999 ;
+    border-right:1px solid #12173f;
 }
 
 .analysiswork .work {
@@ -1218,7 +1218,7 @@ header .calculator2 span:not(.icon-calculator1) {
     height: 620px;
     margin-top: 330px;
     border-top:5px solid #3270fe ;
-    border-left:1px solid #999 ;
+    border-left:1px solid #12173f ;
 
 
 }
@@ -1795,11 +1795,11 @@ footer .address span {
     content: "";
     display: block;
     position: absolute;
-    top: 7px;
-    left: 7px;
+    top: 828px;
+    left: 784px;
     width: 16px;
     height: 16px;
-
+    background-image: url(../img/png/check.png);
     opacity: 0;
     transition: all 0.3s;
 }
@@ -3055,10 +3055,6 @@ header .support{
     .support, .address {
         padding-left: 53px;
     }
-
-
-
-
 }
 @media (max-width: 991px) {
     .container{
@@ -3341,12 +3337,15 @@ header .support{
     }
 
 }
-/*@media (max-width: 767px) {*/
-    /*.container {*/
-        /*width: 100%;*/
-    /*}*/
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .advantages{
+        display: none;
+    }
 
-/*}*/
+}
 
 
 
