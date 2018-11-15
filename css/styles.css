@@ -72,8 +72,8 @@ a:hover {
 }
 
 .content button:hover {
-    color: #00b9e1;
-    /*border: !important;*/
+    color: #00b9e1 !important;
+    border: none !important;
 }
 
 form .personal input:focus {
