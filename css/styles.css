@@ -5,7 +5,7 @@
 body {
     margin: 0 auto;
     max-width: 1920px;
-    min-width: 1200px;
+    /*min-width: 1200px;*/
     font-family: "Montserrat";
 }
 
@@ -334,6 +334,7 @@ header .calculator2 span:not(.icon-calculator1) {
     float: right;
     padding-left: 130px;
     margin-top: 114px;
+    position: relative;
 }
 .menu li:not(.Login):before{
     content: "";
@@ -343,9 +344,10 @@ header .calculator2 span:not(.icon-calculator1) {
     border-radius:50% ;
     background-color: #012a73;
     position: absolute;
-    top: 129px;
+    top:36px;
     margin-left: -18px;
 }
+
 
 .menu li {
     display: inline-block;
@@ -1219,7 +1221,6 @@ header .calculator2 span:not(.icon-calculator1) {
     background-color: #232853;
     height: 620px;
     margin-top: 330px;
-    margin-left: -31px;
     border-top:5px solid #9846db ;
     border-right:1px solid #12173f;
 }
@@ -1328,14 +1329,14 @@ header .calculator2 span:not(.icon-calculator1) {
     vertical-align: middle;
     margin-right: 50px;
     margin-top: 110px;
-
     margin-bottom: 100px;
 }
 
 footer {
     background-color: #0d0f29;
-    height: 360px;
+    height: auto;
     margin-top: -26px;
+    padding-bottom: 90px;
 
 }
 
@@ -2844,9 +2845,7 @@ header .support{
     .plan{
         display: none;
     }
-    .statistic{
-        margin-left: -115px;
-    }
+
     .about .description p {
         font-size: 17px;
         line-height: 30px;
@@ -3080,9 +3079,7 @@ header .support{
     .analysiswork .work button{
         margin-top: 60px;
     }
-    .cooperation{
-        margin-left: -30px;
-    }
+
     .cooperation img {
         vertical-align: middle;
         margin-right: 10px;
@@ -3214,6 +3211,7 @@ header .support{
         box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
     }
+
     .advantages .item1 span[class*="icon-"] {
         display: block;
         position: absolute;
@@ -3340,19 +3338,24 @@ header .support{
         margin-top: 30px;
     }
     .analysiswork .work button{
-        margin-top: 60px;
-    }
+        margin-top: 30px;
+    }.cooperation {
+         display: table;
+         width: 100%;
+
+     }
+
     .cooperation img {
         vertical-align: middle;
-        margin-right: 8px;
-        margin-left: -25px;
+        width: 110px;
         margin-top: 110px;
         margin-bottom: 100px;
     }
+
     footer .copyright {
         width: 154px;
         margin-top: 20px;
-        margin-left: 8px;
+
     }
     .menuFotter {
         padding-left: 25px;
@@ -3413,6 +3416,11 @@ header .support{
         text-align: left;
         text-transform: uppercase;
     }
+    .personal, .login, .e-currency{
+        margin-top: 30px;
+
+    }
+
     .footclear{
         padding-left: 70px;
     }
@@ -3427,14 +3435,201 @@ header .support{
     .container {
         width: 100%;
     }
-    .advantages{
+    header .table1 {
+        display:block;
+        width: 100%;
+        margin-top: 10px;
+        vertical-align: middle;
+
+    }
+
+    header .DataTime, .calculator1, .calculator2 {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        margin-left: 20px;
+
+    }
+
+
+
+
+
+    .menu {
+        width: calc(100% - 170px);
+        float: right;
+        padding-left: 130px;
+        margin-top: 114px;
+        position: relative;
+    }
+    .menu li:not(.Login):before{
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius:50% ;
+        background-color: #012a73;
+        position: absolute;
+
+    }
+
+
+    .menu li {
+        display: inline-block;
+        margin-right: 30px;
+        margin-top: 20px;
+
+    }
+
+
+    .registration h1 {
+        font-size: 70px;
+        line-height: 110px;
+        color: #ffffff;
+        font-weight: 100;
+        text-align: left;
+        margin-top: 75px;
+
+    }
+
+    .registration .title {
+        font-size: 70px;
+        line-height: 110px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: left;
+
+    }
+
+    .registration p {
+        font-size: 15px;
+        line-height: 48px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: left;
+    }
+
+
+
+    .cards .text {
+        font-size: 15px;
+        line-height: 36px;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .cards .num {
+        font-size: 15px;
+        line-height: 36px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+
+    }
+    .statistic .cards{
+        margin-top: 30px;
+    }
+
+    .about .description {
+        float: right;
+        width: 100%;
+
+    }
+    .about .documents {
+        float: left;
+        width: 100%;
+        background-color: #232853;
+
+    }
+
+    .program{
         display: none;
     }
     .plan{
         display: none;
     }
+
     .bannerDep{
         display: none;
+    }
+    .back4{
+        height: auto;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .analysiswork .analysis {
+        float: right;
+        width: 100%;
+        background-color: #232853;
+        height: 620px;
+        margin-top: 330px;
+        border-top:5px solid #9846db ;
+        border-right:1px solid #12173f;
+    }
+
+    .analysiswork .work {
+        float: left;
+        width: 100%;
+        background-color: #232853;
+        height: 620px;
+        margin-top: 30px;
+        border-top:5px solid #3270fe ;
+        border-left:1px solid #12173f ;
+
+
+    }
+
+
+.menuFotter {
+        padding-left: 75px;
+
+    }
+
+
+    .head img {
+        margin-top: 65px;
+        margin-left:-50px
+    }
+
+    .head {
+        position: relative;
+    }
+    .head .logo1 {
+        position: absolute;
+        display: block;
+        margin-left: 140px;
+    }
+
+    .Registration .head .logo1 {
+        font-size: 27px;
+        line-height: 33px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .Registration .head .logo2 {
+        font-size: 27px;
+        line-height: 33px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .head h1 {
+        font-size: 45px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    form{
+        float: none;
     }
 
 
