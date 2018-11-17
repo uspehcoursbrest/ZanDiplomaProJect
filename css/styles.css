@@ -67,8 +67,9 @@ a:hover {
 }
 .pagination a:hover{
     background-color: #9846db;
-
-
+    display: block;
+    border-radius: 50%;
+    line-height: 20px;
 }
 
 .content button:hover {
@@ -119,7 +120,8 @@ footer {
     /*width: 1920px;*/
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -70px;
+    /*margin-top: -70px;*/
+
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -344,7 +346,7 @@ header .calculator2 span:not(.icon-calculator1) {
     border-radius:50% ;
     background-color: #012a73;
     position: absolute;
-    top:36px;
+    top:16px;
     margin-left: -18px;
 }
 
@@ -353,6 +355,7 @@ header .calculator2 span:not(.icon-calculator1) {
     display: inline-block;
     margin-right: 30px;
     margin-top: 20px;
+    position: relative;
 
 }
 
@@ -1429,8 +1432,8 @@ footer .address span {
     line-height: 40px;
     color: #ffffff;
     text-align: left;
-
 }
+ /*3 страница          */
 
 .head {
     text-decoration: none;
@@ -1860,6 +1863,7 @@ footer .address span {
 .foot .copyright span:last-child {
     margin-left: 50px;
 }
+/*2 страницца*/
 
 header .support a {
     font-size: 15px;
@@ -2838,6 +2842,7 @@ header .support{
         margin-left: 50px;
 
     }
+
     .menu {
         width: calc(100% - 170px);
         float: right;
@@ -3187,8 +3192,7 @@ header .support{
 
     }
     .program img {
-        padding-left: 30px;
-        margin-top: 56px;
+        display: none;
     }
     .Join button {
         font-size: 20px;
@@ -3212,91 +3216,144 @@ header .support{
 
     }
 
+    .advantages .item1{
+        position: static;
+    }
     .advantages .item1 span[class*="icon-"] {
         display: block;
-        position: absolute;
-        bottom: -430px;
-        left: -10px;
+        position: static;
+        margin-top: -90px;
+        margin-left: 306px;
         line-height: 50px;
         font-size: 48px;
         color: #c279ff;
     }
 
     .advantages .item1 .title1, .mintext1 {
-        display: block;
-        position: absolute;
-        left: -80px;
-        top: 166px;
+        position: static;
+        margin-right: 535px;
 
+    }
+    .advantages .item1 .title1 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #c279ff;
+        font-weight: 300;
+        text-align: left;
+        margin-left: 101px;
+        margin-top: 30px;
+    }
+    .advantages .item2{
+        position: static;
     }
     .advantages .item2 span[class*="icon-"] {
         display: block;
-        position: absolute;
-        bottom: -412px;
-        left: 230px;
+        position: static;
+        margin-top: -90px;
+        margin-left: 306px;
         line-height: 50px;
         font-size: 48px;
         color: #329cfe;
     }
 
     .advantages .item2 .title2, .mintext2 {
-        display: block;
-        position: absolute;
-        left: 220px;
-        top: 539px;
+        position: static;
+        margin-right: 490px;
+        margin-top: 14px;
 
     }
+    .advantages .item2 .title2 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #329cfe;
+        font-weight: 300;
+        text-align: right;
+        margin-top: 53px;
 
-
+    }
+    .advantages .item3{
+        position: static;
+    }
     .advantages .item3 span[class*="icon-"] {
         display: block;
-        position: absolute;
-        bottom: -358px;
-        left: 464px;
+        position: static;
+        margin-top: -114px;
+        margin-left: 457px;
         color: #8060ea;
         line-height: 50px;
         font-size: 48px;
     }
 
     .advantages .item3 .title3, .mintext3 {
-        display: block;
-        position: absolute;
-        left: 224px;
-        top: 142px;
 
+        position: static;
+        margin-right: 20px;
+
+
+    }
+    .advantages .item3 .title3 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #8c69ff;
+        font-weight: 300;
+        text-align: right;
+        margin-top: 13px;
+
+    }
+    .advantages .item4{
+        position: static;
     }
     .advantages .item4 span[class*="icon-"] {
         display: block;
-        position: absolute;
-        bottom: -251px;
-        left: 665px;
+        position: static;
+        margin-left: 345px;
+        margin-top: -105px;
         color: #00b9e1;
         line-height: 50px;
         font-size: 48px;
     }
 
     .advantages .item4 .title4, .mintext4 {
-        display: block;
-        position: absolute;
-        left: 652px;
-        top: 394px;
+        position: static;
 
+
+
+    }
+    .advantages .item4 .title4 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #00b9e1;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 100px;
+    }
+    .advantages .item5{
+        position: static;
     }
     .advantages .item5 span[class*="icon-"] {
         display: block;
-        position: absolute;
-        bottom: -81px;
-        left: 830px;
+        position: static;
+        margin-top: -94px;
+        margin-left: 396px;
         color: #2e67ea;
         line-height: 50px;
         font-size: 48px;
     }
-
     .advantages .item5 .title5, .mintext5 {
-        display: block;
-        position: absolute;
-        left: 486px;
-        top: -60px;
+
+        position: static;
+        margin-left: 245px;
+
+
+
+    }
+    .advantages .item5 .title5 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #3270fe;
+        font-weight: 300;
+        text-align: right;
+        margin-top: 50px;
 
     }
     .analysiswork h2 {
@@ -3339,7 +3396,8 @@ header .support{
     }
     .analysiswork .work button{
         margin-top: 30px;
-    }.cooperation {
+    }
+    .cooperation {
          display: table;
          width: 100%;
 
@@ -3450,11 +3508,9 @@ header .support{
         margin-left: 20px;
 
     }
-
-
-
-
-
+    .calculator{
+        padding-top: 10px;
+    }
     .menu {
         width: calc(100% - 170px);
         float: right;
@@ -3553,6 +3609,148 @@ header .support{
     .bannerDep{
         display: none;
     }
+
+    .advantages .item1{
+        position: static;
+    }
+    .advantages .item1 span[class*="icon-"] {
+        display: block;
+        position: static;
+        margin-top: -90px;
+        margin-left: 306px;
+        line-height: 50px;
+        font-size: 48px;
+        color: #c279ff;
+    }
+
+    .advantages .item1 .title1, .mintext1 {
+        position: static;
+        margin-right: 276px;
+
+    }
+    .advantages .item1 .title1 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #c279ff;
+        font-weight: 300;
+        text-align: left;
+        margin-left: 101px;
+        margin-top: 30px;
+    }
+    .advantages .item2{
+        position: static;
+    }
+    .advantages .item2 span[class*="icon-"] {
+        display: block;
+        position: static;
+        margin-top: -90px;
+        margin-left: 306px;
+        line-height: 50px;
+        font-size: 48px;
+        color: #329cfe;
+    }
+
+    .advantages .item2 .title2, .mintext2 {
+        position: static;
+        margin-right: 240px;
+        margin-top: 30px;
+
+    }
+    .advantages .item2 .title2 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #329cfe;
+        font-weight: 300;
+        text-align: right;
+
+    }
+    .advantages .item3{
+        position: static;
+    }
+    .advantages .item3 span[class*="icon-"] {
+        display: block;
+        position: static;
+        margin-top: -110px;
+        margin-left: 147px;
+        color: #8060ea;
+        line-height: 50px;
+        font-size: 48px;
+    }
+
+    .advantages .item3 .title3, .mintext3 {
+
+        position: static;
+        margin-right: 20px;
+
+
+    }
+    .advantages .item3 .title3 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #8c69ff;
+        font-weight: 300;
+        text-align: right;
+        margin-top: 55px;
+
+    }
+    .advantages .item4{
+        position: static;
+    }
+    .advantages .item4 span[class*="icon-"] {
+        display: block;
+        position: static;
+        margin-left: 345px;
+        margin-top: -105px;
+        color: #00b9e1;
+        line-height: 50px;
+        font-size: 48px;
+    }
+
+    .advantages .item4 .title4, .mintext4 {
+        position: static;
+
+
+
+    }
+    .advantages .item4 .title4 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #00b9e1;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .advantages .item5{
+        position: static;
+    }
+    .advantages .item5 span[class*="icon-"] {
+        display: block;
+        position: static;
+        margin-top: -94px;
+        margin-left: 105px;
+
+        color: #2e67ea;
+        line-height: 50px;
+        font-size: 48px;
+    }
+    .advantages .item5 .title5, .mintext5 {
+
+        position: static;
+        margin-left: 245px;
+
+
+
+    }
+    .advantages .item5 .title5 {
+        font-size: 24px;
+        line-height: 22px;
+        color: #3270fe;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 295px;
+
+    }
     .back4{
         height: auto;
         -webkit-background-size: cover;
@@ -3579,9 +3777,22 @@ header .support{
 
 
     }
+    .cooperation {
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .cooperation img {
+        vertical-align: middle;
+        width: 68px;
+        margin-top: 110px;
+        margin-bottom: 100px;
+    }
 
 
-.menuFotter {
+
+    .menuFotter {
         padding-left: 75px;
 
     }

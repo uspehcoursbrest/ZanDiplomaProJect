@@ -1,8 +1,9 @@
 window.onload = function () {
     function DataTime() {
         var date = new Date(),
-            day = date.getDay(),
+            day = date.getDate(),
             dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"],
+            weekDay = date.getDay(),
             month = date.getMonth(),
             monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
             year = date.getFullYear(),
@@ -13,7 +14,7 @@ window.onload = function () {
         if(hour < 10) hour = "0" + hour;
         if(min < 10) min = "0" + min;
 
-        document.getElementById("date") .innerHTML = dayNames + " ," + month + monthArr[month] + " " + year;
+        document.getElementById("date") .innerHTML = dayNames[weekDay] + " ," + day + " " + monthArr[month] + " " + year;
         document.getElementById("time") .innerHTML = hour + ":" + min;
 
     }
