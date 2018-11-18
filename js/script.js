@@ -2,7 +2,7 @@ window.onload = function () {
     function DataTime() {
         var date = new Date(),
             day = date.getDate(),
-            dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"],
+            dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
             weekDay = date.getDay(),
             month = date.getMonth(),
             monthArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -14,8 +14,8 @@ window.onload = function () {
         if(hour < 10) hour = "0" + hour;
         if(min < 10) min = "0" + min;
 
-        document.getElementById("date") .innerHTML = dayNames[weekDay] + " ," + day + " " + monthArr[month] + " " + year;
-        document.getElementById("time") .innerHTML = hour + ":" + min;
+        document.getElementById("date").innerHTML = dayNames[weekDay] + " ," + day + " " + monthArr[month] + " " + year;
+        document.getElementById("time").innerHTML = hour + ":" + min;
 
     }
     var timer;
