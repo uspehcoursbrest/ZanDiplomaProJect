@@ -2819,6 +2819,107 @@ header .support{
     float: right;
 
 }
+.up {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #8c69ff;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    border-radius: 50px;
+}
+
+.up {
+    font-size: 25px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.up::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: #2e67ea;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.2;
+    color: #ffffff;
+    animation: circleFill 2.2s infinite ease-in-out;
+}
+
+.up::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    border: 1px solid #9846db;
+    border-radius: 50%;
+    z-index: -1;
+    animation: circle 2.2s infinite ease-in-out;
+}
+@keyframes circleFill {
+    0% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.2;
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0.2;
+    }
+}
+
+@keyframes circle {
+    0% {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0.01;
+    }
+    30% {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.01;
+    }
+}
 /*адаптивность*/
 @media (max-width: 1199px){
     .container{
@@ -3251,6 +3352,9 @@ header .support{
         margin-left: 30px;
 
     }
+    header .calculator{
+        margin-left: 25px;
+    }
     .menu {
         padding-left: 35px;
         margin-top: 114px;
@@ -3556,11 +3660,12 @@ header .support{
 
     .head img {
         margin-top: 65px;
-        margin-left:-350px
+        margin-left:-225px
     }
 
     .head {
         position: relative;
+        margin-left: 130px;
     }
 
     .head .logo1 {
@@ -3569,6 +3674,12 @@ header .support{
         margin-left: 140px;
 
 
+    }
+    .form1 {
+        float: left;
+        width: 100%;
+        margin-top: 55px;
+        margin-left: 170px;
     }
 
     .Registration .head .logo1 {
@@ -3605,9 +3716,10 @@ header .support{
 
     .footclear{
         padding-left: 70px;
+        margin-left: 180px;
     }
     .foot .copyright {
-        margin-left: 83px;
+        margin-left: 260px;
         margin-top: 30px;
     }
     .backDep {
@@ -3634,20 +3746,22 @@ header .support{
         display: table;
         width: 100%;
     }
-    /*.topLine {*/
-        /*display: inline-block;*/
-        /*width: 100%;*/
-        /*padding-top: 40px;*/
-    /*}*/
-    /*.topLine li {*/
-        /*display: inline-block;*/
-        /*vertical-align: middle;*/
-        /*width: 9.0909%;*/
-        /*border: 1px solid #313769;*/
-        /*text-align: left;*/
-        /*margin-left: -5px;*/
-        /*box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);*/
-    /*}*/
+    .topLine {
+        display: block;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .topLine li {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100px;
+        border: 1px solid #313769;
+        text-align: left;
+        margin-left: -5px;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
+        padding: 5px;
+
+    }
     .bannerDep {
         width: 100%;
         height: 130px;
@@ -3806,20 +3920,23 @@ header .support{
 
     }
 
-    header .DataTime, .calculator1, .calculator2 {
-        display: inline-block;
+    .table1 .DataTime, .calculator1, .calculator2 {
+        display:block;
         width: auto;
         vertical-align: middle;
-        margin-left: 20px;
+        margin-left: 25px;
 
     }
-    .calculator{
+    .table1 .calculator{
         padding-top: 10px;
+        margin-left: 25px;
     }
+
+
     .menu {
         width: calc(100% - 170px);
         float: right;
-        padding-left: 130px;
+        padding-left: 65px;
         margin-top: 114px;
         position: relative;
     }
@@ -3953,12 +4070,13 @@ header .support{
         line-height: 50px;
         font-size: 48px;
         color: #329cfe;
+
     }
 
     .advantages .item2 .title2, .mintext2 {
         position: static;
         margin-right: 240px;
-        margin-top: 30px;
+        margin-top: 20px;
 
     }
     .advantages .item2 .title2 {
@@ -3967,6 +4085,7 @@ header .support{
         color: #329cfe;
         font-weight: 300;
         text-align: right;
+        padding-top: 20px;
 
     }
     .advantages .item3{
@@ -4105,11 +4224,12 @@ header .support{
 
     .head img {
         margin-top: 65px;
-        margin-left:-50px
+        margin-left:-60px
     }
 
     .head {
         position: relative;
+        margin-left: 35px;
     }
     .head .logo1 {
         position: absolute;
@@ -4146,6 +4266,185 @@ header .support{
     }
     form{
         float: none;
+        margin-left: -125px;
+
+    }
+    .footclear {
+        padding-left: 70px;
+        margin-left: 50px;
+    }
+    .foot .copyright {
+        margin-left: 135px;
+        margin-top: 30px;
+    }
+    .backDep {
+        height: 3045px;
+        /*width: 1920px;*/
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -480px;
+        padding-top: 470px;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+    .banner1{
+        display: none;
+    }
+    .estimate{
+        display: none;
+    }
+    .right{
+        display: block;
+    }
+    .right .top {
+        display: inline-block;
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    .support a {
+        padding-right: 10px;
+    }
+    .right .bottom {
+        display: table;
+        width: 100%;
+    }
+     .right .bottom .DataTime, .calculator1, .calculator2 {
+        display: block;
+        width: auto;
+        vertical-align: middle;
+        margin-left: 25px;
+    }
+     .right .bottom .calculator{
+         display: table-row;
+        width: 50%;
+        vertical-align: middle;
+    }
+    .topLine {
+        display: block;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .topLine li {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100px;
+        border: 1px solid #313769;
+        text-align: left;
+        margin-left: -5px;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
+        padding: 5px;
+
+    }
+    .balance {
+        float: left;
+        width: 280px;
+        height: 130px;
+        background-color: #1f265a;
+        padding: 30px 10px;
+        position: relative;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
+
+    }
+    .balance .acBalance {
+        position: absolute;
+        display: block;
+        left: 83px;
+        top: 15px;
+    }
+    .yourDeposit {
+        background-color: #040830;
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+    .yourDeposit .item {
+        padding-top: 70px;
+        padding-left: 1px;
+    }
+    .balance span:last-child {
+        position: absolute;
+        display: block;
+        top: 57px;
+        left: 87px;
+    }
+    .counter {
+        float: left;
+        width: 490px;
+        height: 130px;
+        background-color: #040830;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
+    }
+    .card {
+        float: left;
+        width: 50%;
+        border: 1px solid #262c59;
+        padding: 6px;
+        padding-left: 5px;
+    }
+    .card span {
+        display: inline-block;
+        padding-left: 10px;
+
+    }
+    .infoDep {
+        width: 100%;
+        float: left;
+    }
+    .item .boxData .title1 {
+        font-size: 15px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: left;
+        top:6px;
+        left: 40px;
+        position: absolute;
+
+    }
+    .item .boxData .when {
+        font-size: 15px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 700;
+        position: absolute;
+        top: 30px;
+        left: 45px;
+    }
+    .item .boxData {
+        position: relative;
+        padding: 5px;
+
+    }
+    .item .box {
+        position: relative;
+        padding: 4px;
+        border: 1px solid #3b4577;
+
+    }
+
+
+    .pagination {
+        margin-left: 46px;
+        margin-top: 78px;
+    }
+    .footer {
+        background-color: #040830;
+        height: 75px;
+        margin-top: -15px;
+    }
+    .footer .copyright {
+        float: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+    .footer .home {
+        float: right;
+        margin-top: -78px;
     }
 
 
