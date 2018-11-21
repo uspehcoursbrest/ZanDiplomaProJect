@@ -61,11 +61,11 @@ ul {
     color: #9946db;
 }
 
-
 a:hover {
     text-decoration: none;
 }
-.pagination a:hover{
+
+.pagination a:hover {
     background-color: #9846db;
     display: block;
     border-radius: 50%;
@@ -99,11 +99,11 @@ form .e-currency input:focus {
     background-color: #8f9ac8;
 }
 
-
 header {
     background-color: #12173f;
     /*width: 1920px;*/
 }
+
 .content {
     background-color: #1a204a;
     /*width: 1920px;*/
@@ -113,7 +113,6 @@ footer {
     background-color: #12173f;
     /*width: 1920px;*/
 }
-
 
 .back1 {
     height: 2695px;
@@ -125,7 +124,6 @@ footer {
     -webkit-background-size: cover;
     background-size: cover;
 }
-
 
 .back2 {
     height: 1745px;
@@ -156,8 +154,6 @@ footer {
     -webkit-background-size: cover;
     background-size: cover;
 
-
-
 }
 
 .backDep {
@@ -173,12 +169,10 @@ footer {
 }
 
 .backReg {
-    -webkit-background-size:cover ;
-    background-size:cover ;
+    -webkit-background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-
 
 }
 
@@ -242,7 +236,8 @@ header .DataTime .data {
     vertical-align: middle;
 
 }
-.calculator1 span[class*="icon-"]{
+
+.calculator1 span[class*="icon-"] {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9946db+1,0088fe+99 */
     background: #9946db; /* Old browsers */
     background: -moz-linear-gradient(top, #9946db 1%, #0088fe 99%); /* FF3.6-15 */
@@ -255,7 +250,8 @@ header .DataTime .data {
     font-size: 36px;
     vertical-align: middle;
 }
-.calculator2 span[class*="icon-"]{
+
+.calculator2 span[class*="icon-"] {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9946db+1,0088fe+99 */
     background: #9946db; /* Old browsers */
     background: -moz-linear-gradient(top, #9946db 1%, #0088fe 99%); /* FF3.6-15 */
@@ -268,6 +264,7 @@ header .DataTime .data {
     font-size: 36px;
     vertical-align: middle;
 }
+
 header .calculator1 span:not(.icon-calculator2) {
     font-size: 15px;
     line-height: 40px;
@@ -277,8 +274,6 @@ header .calculator1 span:not(.icon-calculator2) {
 
 }
 
-
-
 header .calculator2 span:not(.icon-calculator1) {
     font-size: 15px;
     line-height: 40px;
@@ -287,7 +282,6 @@ header .calculator2 span:not(.icon-calculator1) {
     vertical-align: middle;
 
 }
-
 
 .logo {
     width: 170px;
@@ -338,18 +332,18 @@ header .calculator2 span:not(.icon-calculator1) {
     margin-top: 114px;
     position: relative;
 }
-.menu li:not(.Login):before{
+
+.menu li:not(.Login):before {
     content: "";
     display: block;
     width: 8px;
     height: 8px;
-    border-radius:50% ;
+    border-radius: 50%;
     background-color: #012a73;
     position: absolute;
-    top:16px;
+    top: 16px;
     margin-left: -18px;
 }
-
 
 .menu li {
     display: inline-block;
@@ -619,6 +613,7 @@ header .calculator2 span:not(.icon-calculator1) {
     top: 232px;
     left: 75px;
 }
+
 .plan3 .maX {
     font-size: 15px;
     line-height: 24px;
@@ -714,7 +709,8 @@ header .calculator2 span:not(.icon-calculator1) {
     line-height: 70px;
     font-size: 48px;
 }
-.statistic .cards span[class*="icon-"]{
+
+.statistic .cards span[class*="icon-"] {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9946db+1,0088fe+99 */
     background: #9946db; /* Old browsers */
     background: -moz-linear-gradient(top, #9946db 1%, #0088fe 99%); /* FF3.6-15 */
@@ -804,7 +800,8 @@ header .calculator2 span:not(.icon-calculator1) {
     padding-top: 29px;
 
 }
-.about .description ul{
+
+.about .description ul {
     padding-left: 58px;
 }
 
@@ -816,12 +813,13 @@ header .calculator2 span:not(.icon-calculator1) {
     position: relative;
 
 }
-.about .description li:before{
+
+.about .description li:before {
     content: "";
     display: block;
     width: 8px;
     height: 8px;
-    border-radius:50% ;
+    border-radius: 50%;
     background-color: #9846db;
     position: absolute;
     left: -17px;
@@ -829,12 +827,12 @@ header .calculator2 span:not(.icon-calculator1) {
 
 }
 
-
 .about .documents {
     float: left;
     width: 50%;
 }
-.about .documents span[class*="icon-"]{
+
+.about .documents span[class*="icon-"] {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9946db+1,0088fe+99 */
     background: #9946db; /* Old browsers */
     background: -moz-linear-gradient(top, #9946db 1%, #0088fe 99%); /* FF3.6-15 */
@@ -871,6 +869,7 @@ header .calculator2 span:not(.icon-calculator1) {
     left: 80px;
     top: 91px;
 }
+
 .about .adress span:first-child {
     line-height: 45px;
     font-size: 48px;
@@ -960,7 +959,7 @@ header .calculator2 span:not(.icon-calculator1) {
     line-height: 30px;
     color: #ffffff;
     margin-top: 70px;
-   text-align: center;
+    text-align: center;
 
 }
 
@@ -1224,8 +1223,8 @@ header .calculator2 span:not(.icon-calculator1) {
     background-color: #232853;
     height: 620px;
     margin-top: 330px;
-    border-top:5px solid #9846db ;
-    border-right:1px solid #12173f;
+    border-top: 5px solid #9846db;
+    border-right: 1px solid #12173f;
 }
 
 .analysiswork .work {
@@ -1234,12 +1233,10 @@ header .calculator2 span:not(.icon-calculator1) {
     background-color: #232853;
     height: 620px;
     margin-top: 330px;
-    border-top:5px solid #3270fe ;
-    border-left:1px solid #12173f ;
-
+    border-top: 5px solid #3270fe;
+    border-left: 1px solid #12173f;
 
 }
-
 
 .analysiswork .analysis {
     position: relative;
@@ -1369,24 +1366,25 @@ footer .copyright {
     padding-left: 208px;
 
 }
-.menuFotter ul li{
+
+.menuFotter ul li {
     position: relative;
     padding-left: 20px;
 }
 
-
-.menuFotter li:before{
+.menuFotter li:before {
     content: "";
     display: block;
     width: 8px;
     height: 8px;
-    border-radius:50% ;
+    border-radius: 50%;
     background-color: #9846db;
     position: absolute;
     left: -17px;
-    top:41% ;
+    top: 41%;
 
 }
+
 .menuFotter a {
     font-size: 15px;
     line-height: 40px;
@@ -1433,7 +1431,8 @@ footer .address span {
     color: #ffffff;
     text-align: left;
 }
- /*3 страница          */
+
+/*3 страница          */
 
 .head {
     text-decoration: none;
@@ -1495,6 +1494,7 @@ footer .address span {
     margin-top: 55px;
 
 }
+
 .personal, .login, .e-currency {
     float: left;
     width: 33.3333%;
@@ -1502,27 +1502,28 @@ footer .address span {
     margin-left: 25px;
 
 }
-.personal{
-    background-color: rgba(1,25,71, 0.87);
-    border-top:7px solid #0188fe;
+
+.personal {
+    background-color: rgba(1, 25, 71, 0.87);
+    border-top: 7px solid #0188fe;
     height: 460px;
     width: 360px;
 
 }
-.login{
-    background-color: rgba(1,25,71, 0.87);
-    border-top:7px solid #a43afe;
-    height: 460px;
-    width: 360px;
-}
-.e-currency{
-    background-color: rgba(1,25,71, 0.87);
-    border-top:7px solid #00b9e1;
+
+.login {
+    background-color: rgba(1, 25, 71, 0.87);
+    border-top: 7px solid #a43afe;
     height: 460px;
     width: 360px;
 }
 
-
+.e-currency {
+    background-color: rgba(1, 25, 71, 0.87);
+    border-top: 7px solid #00b9e1;
+    height: 460px;
+    width: 360px;
+}
 
 .personal {
     position: revert;
@@ -1615,7 +1616,7 @@ footer .address span {
 .login h2 {
     display: block;
     position: absolute;
-    margin-left:  28px;
+    margin-left: 28px;
     margin-top: 28px;
 
 }
@@ -1624,7 +1625,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 90px;
-    margin-left:  38px;
+    margin-left: 38px;
 
 }
 
@@ -1632,7 +1633,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 165px;
-    margin-left:  38px;
+    margin-left: 38px;
 
 }
 
@@ -1648,7 +1649,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 265px;
-    margin-left:  38px;
+    margin-left: 38px;
 
 }
 
@@ -1656,7 +1657,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 290px;
-    margin-left:  38px;
+    margin-left: 38px;
 
 }
 
@@ -1664,7 +1665,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 365px;
-    margin-left:  38px;
+    margin-left: 38px;
 
 }
 
@@ -1705,7 +1706,7 @@ footer .address span {
 .e-currency h2 {
     display: block;
     position: absolute;
-    margin-left:  28px;
+    margin-left: 28px;
     margin-top: 28px;
 }
 
@@ -1713,7 +1714,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 163px;
-    margin-left:  38px;
+    margin-left: 38px;
 }
 
 .e-currency .ecur1 img {
@@ -1727,7 +1728,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 230px;
-    margin-left:  38px;
+    margin-left: 38px;
 }
 
 .e-currency .ecur2 img {
@@ -1741,7 +1742,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 296px;
-    margin-left:  38px;
+    margin-left: 38px;
 }
 
 .e-currency .ecur3 img {
@@ -1755,7 +1756,7 @@ footer .address span {
     display: block;
     position: absolute;
     margin-top: 363px;
-    margin-left:  38px;
+    margin-left: 38px;
 }
 
 .e-currency .ecur4 img {
@@ -1780,13 +1781,12 @@ footer .address span {
     text-align: left;
 }
 
-
-
-.footclear{
+.footclear {
 
     padding-left: 450px;
 }
-.checkBtn label{
+
+.checkBtn label {
     position: relative;
     padding-left: 40px;
     margin-left: -400px;
@@ -1794,20 +1794,22 @@ footer .address span {
     line-height: 100px;
     color: #333333;
 
-
 }
-.checkBtn{
+
+.checkBtn {
     display: none;
 }
-.check{
+
+.check {
     position: relative;
 }
-.checkBtn:not(checkked) + label::before{
+
+.checkBtn:not(checkked) + label::before {
     content: "";
     display: block;
     position: absolute;
-    top:40px;
-    left:-40px;
+    top: 40px;
+    left: -40px;
     width: 22px;
     height: 22px;
     border: 1px solid #d4d4d4;
@@ -1815,7 +1817,8 @@ footer .address span {
 
     transition: all 0.3s;
 }
-.checkBtn:not(checkked) + label::after{
+
+.checkBtn:not(checkked) + label::after {
     content: "";
     display: block;
     position: absolute;
@@ -1827,13 +1830,16 @@ footer .address span {
     opacity: 0;
     transition: all 0.3s;
 }
-.checkBtn:checked + label::before{
+
+.checkBtn:checked + label::before {
     border-color: #6770a7;
 }
-.checkBtn:checked + label::after{
+
+.checkBtn:checked + label::after {
     opacity: 1;
 }
-.checkBtn +label{
+
+.checkBtn + label {
     cursor: pointer;
 }
 
@@ -1863,6 +1869,7 @@ footer .address span {
 .foot .copyright span:last-child {
     margin-left: 50px;
 }
+
 /*2 страницца*/
 
 header .support a {
@@ -1873,7 +1880,8 @@ header .support a {
     text-decoration: none;
 
 }
-header .support{
+
+header .support {
     padding-left: 10px;
 }
 
@@ -1963,7 +1971,6 @@ header .support{
     width: 550px;
 
 }
-
 
 .account a {
     font-size: 15px;
@@ -2178,7 +2185,8 @@ header .support{
     left: 40px;
 
 }
-.calendar img{
+
+.calendar img {
     padding-top: 15px;
 }
 
@@ -2343,7 +2351,6 @@ header .support{
     height: 1470px;
     background-position: center;
     background-repeat: no-repeat;
-
 
 }
 
@@ -2532,7 +2539,7 @@ header .support{
     line-height: 22px;
     color: #ffffff;
     text-align: left;
-    top:6px;
+    top: 6px;
     left: 64px;
     position: absolute;
 
@@ -2555,8 +2562,6 @@ header .support{
     padding: 10px;
 
 }
-
-
 
 .item .box .title {
     font-size: 15px;
@@ -2758,8 +2763,6 @@ header .support{
     background-color: #232853;
     box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
 
-
-
 }
 
 .pageNum li[class*="active"] {
@@ -2799,7 +2802,8 @@ header .support{
     margin-bottom: 15px;
 
 }
-.home img{
+
+.home img {
     margin-top: 15px;
 }
 
@@ -2819,6 +2823,7 @@ header .support{
     float: right;
 
 }
+
 .up {
     display: block;
     width: 50px;
@@ -2867,6 +2872,7 @@ header .support{
     z-index: -1;
     animation: circle 2.2s infinite ease-in-out;
 }
+
 @keyframes circleFill {
     0% {
         -webkit-transform: scale(0.5);
@@ -2920,12 +2926,12 @@ header .support{
         opacity: 0.01;
     }
 }
+
 /*адаптивность*/
-@media (max-width: 1199px){
-    .container{
+@media (max-width: 1199px) {
+    .container {
         width: 980px;
     }
-
 
     header .table1 {
         display: table;
@@ -2948,7 +2954,8 @@ header .support{
         width: calc(100% - 170px);
         float: right;
     }
-    .plan{
+
+    .plan {
         display: none;
     }
 
@@ -2960,14 +2967,16 @@ header .support{
         padding-left: 30px;
         padding-top: 5px;
     }
+
     .about .description, .documents {
         background-color: #232853;
-        height:1000px;
+        height: 1000px;
         width: 50%;
         padding: 30px 20px;
         margin-bottom: 128px;
         margin-top: 12px;
     }
+
     .about .description li {
         font-size: 17px;
         line-height: 30px;
@@ -2976,18 +2985,20 @@ header .support{
         position: relative;
 
     }
-    .about .description li:before{
+
+    .about .description li:before {
         content: "";
         display: block;
         width: 8px;
         height: 8px;
-        border-radius:50% ;
+        border-radius: 50%;
         background-color: #9846db;
         position: absolute;
         left: -17px;
         top: 41%;
 
     }
+
     .about .documents button {
         font-size: 17px;
         line-height: 36px;
@@ -3009,6 +3020,7 @@ header .support{
         box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
     }
+
     .program p {
         text-indent: 60px;
         font-size: 16px;
@@ -3018,10 +3030,12 @@ header .support{
         text-align: center;
 
     }
+
     .program img {
         padding-left: 90px;
         margin-top: 66px;
     }
+
     .Join button {
         font-size: 20px;
         line-height: 36px;
@@ -3044,7 +3058,6 @@ header .support{
 
     }
 
-
     .advantages .item1 span[class*="icon-"] {
         display: block;
         position: absolute;
@@ -3062,8 +3075,6 @@ header .support{
         top: 166px;
 
     }
-
-
 
     .advantages .item2 span[class*="icon-"] {
         display: block;
@@ -3083,7 +3094,6 @@ header .support{
 
     }
 
-
     .advantages .item3 span[class*="icon-"] {
         display: block;
         position: absolute;
@@ -3101,8 +3111,6 @@ header .support{
         top: 142px;
 
     }
-
-
 
     .advantages .item4 span[class*="icon-"] {
         display: block;
@@ -3122,10 +3130,6 @@ header .support{
 
     }
 
-
-
-
-
     .advantages .item5 span[class*="icon-"] {
         display: block;
         position: absolute;
@@ -3143,6 +3147,7 @@ header .support{
         top: -123px;
 
     }
+
     .analysiswork h2 {
         font-size: 30px;
         line-height: 50px;
@@ -3152,6 +3157,7 @@ header .support{
         margin-top: 30px;
         margin-left: 167px;
     }
+
     .analysiswork p {
         font-size: 16px;
         line-height: 30px;
@@ -3161,6 +3167,7 @@ header .support{
         padding-top: 28px;
         padding-right: 30px;
     }
+
     .analysiswork .analysis span {
         position: absolute;
         display: block;
@@ -3170,6 +3177,7 @@ header .support{
         font-size: 89px;
         left: 65px;
     }
+
     .analysiswork .work span {
         position: absolute;
         display: block;
@@ -3179,10 +3187,12 @@ header .support{
         line-height: 90px;
         font-size: 89px;
     }
-    .analysiswork button{
+
+    .analysiswork button {
         margin-top: 60px;
     }
-    .analysiswork .work button{
+
+    .analysiswork .work button {
         margin-top: 60px;
     }
 
@@ -3192,6 +3202,7 @@ header .support{
         margin-top: 110px;
         margin-bottom: 100px;
     }
+
     .menuFotter {
         padding-left: 116px;
 
@@ -3200,6 +3211,7 @@ header .support{
     .support, .address {
         padding-left: 25px;
     }
+
     .head .logo1 {
         position: absolute;
         display: block;
@@ -3207,6 +3219,7 @@ header .support{
         margin-top: 12px;
 
     }
+
     .backDep {
         height: 3045px;
         /*width: 1920px;*/
@@ -3218,45 +3231,53 @@ header .support{
         background-size: cover;
 
     }
+
     .right .top {
         display: table;
         width: 100%;
         margin-left: 20px;
         margin-top: 15px;
     }
+
     .right .bottom {
         display: table;
         width: 100%;
         margin-left: 20px;
 
     }
+
     .bannerDep {
         width: 100%;
         height: 130px;
         background-color: #040830;
 
     }
+
     .deposit1 span {
         position: absolute;
         top: 40px;
         left: 98px;
     }
+
     .accountInfo {
         position: absolute;
         top: -30px;
         left: 220px;
 
     }
+
     .calendar {
         position: absolute;
         top: -30px;
         left: 420px;
     }
+
     .withdraw span {
         position: absolute;
         top: 40px;
         left: -150px;
     }
+
     .balance {
         float: left;
         width: 280px;
@@ -3267,12 +3288,14 @@ header .support{
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 
     }
+
     .balance .acBalance {
         position: absolute;
         display: block;
         left: 83px;
         top: 15px;
     }
+
     .yourDeposit {
         background-color: #040830;
         width: 100%;
@@ -3281,14 +3304,15 @@ header .support{
         background-repeat: no-repeat;
         padding-bottom: 50px;
 
-
     }
+
     .balance span:last-child {
         position: absolute;
         display: block;
         top: 57px;
         left: 87px;
     }
+
     .counter {
         float: left;
         width: 670px;
@@ -3296,6 +3320,7 @@ header .support{
         background-color: #040830;
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
     }
+
     .estimate {
         width: 855px;
         height: 45px;
@@ -3315,6 +3340,7 @@ header .support{
         top: 10px;
 
     }
+
     .lineZad {
         background-color: #232853;
         width: 655px;
@@ -3324,18 +3350,19 @@ header .support{
         left: 195px;
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
     }
+
     .pagination {
         margin-left: 296px;
         margin-top: 78px;
     }
 
-
-
 }
+
 @media (max-width: 991px) {
-    .container{
+    .container {
         width: 780px;
     }
+
     header .table1 {
         display: table;
         width: 780px;
@@ -3352,31 +3379,39 @@ header .support{
         margin-left: 30px;
 
     }
-    header .calculator{
+
+    header .calculator {
         margin-left: 25px;
     }
+
     .menu {
         padding-left: 35px;
         margin-top: 114px;
     }
+
     .menu {
         width: calc(100% - 170px);
         float: right;
     }
+
     .menu li {
         display: inline-block;
         margin-right: 24px;
         margin-top: 20px;
     }
+
     .menu a {
         font-size: 16px;
     }
-    .plan{
+
+    .plan {
         display: none;
     }
-    .statistic .cards{
+
+    .statistic .cards {
         margin-top: 471px;
     }
+
     .about .description p {
         font-size: 17px;
         line-height: 30px;
@@ -3385,9 +3420,10 @@ header .support{
         padding-left: 30px;
         padding-top: 5px;
     }
+
     .about .description, .documents {
         background-color: #232853;
-        height:1000px;
+        height: 1000px;
         width: 50%;
         padding: 30px 20px;
         margin-bottom: 128px;
@@ -3398,6 +3434,7 @@ header .support{
         position: relative;
         margin-top: -35px;
     }
+
     .about .documents button {
         font-size: 17px;
         line-height: 36px;
@@ -3419,9 +3456,11 @@ header .support{
         box-shadow: 5px 0 5px rgba(0, 0, 0, 0.11);
 
     }
+
     .program img {
         display: none;
     }
+
     .Join button {
         font-size: 20px;
         line-height: 36px;
@@ -3444,9 +3483,10 @@ header .support{
 
     }
 
-    .advantages .item1{
+    .advantages .item1 {
         position: static;
     }
+
     .advantages .item1 span[class*="icon-"] {
         display: block;
         position: static;
@@ -3462,6 +3502,7 @@ header .support{
         margin-right: 535px;
 
     }
+
     .advantages .item1 .title1 {
         font-size: 24px;
         line-height: 22px;
@@ -3471,9 +3512,11 @@ header .support{
         margin-left: 101px;
         margin-top: 30px;
     }
-    .advantages .item2{
+
+    .advantages .item2 {
         position: static;
     }
+
     .advantages .item2 span[class*="icon-"] {
         display: block;
         position: static;
@@ -3490,6 +3533,7 @@ header .support{
         margin-top: 14px;
 
     }
+
     .advantages .item2 .title2 {
         font-size: 24px;
         line-height: 22px;
@@ -3499,9 +3543,11 @@ header .support{
         margin-top: 53px;
 
     }
-    .advantages .item3{
+
+    .advantages .item3 {
         position: static;
     }
+
     .advantages .item3 span[class*="icon-"] {
         display: block;
         position: static;
@@ -3517,8 +3563,8 @@ header .support{
         position: static;
         margin-right: 20px;
 
-
     }
+
     .advantages .item3 .title3 {
         font-size: 24px;
         line-height: 22px;
@@ -3528,9 +3574,11 @@ header .support{
         margin-top: 13px;
 
     }
-    .advantages .item4{
+
+    .advantages .item4 {
         position: static;
     }
+
     .advantages .item4 span[class*="icon-"] {
         display: block;
         position: static;
@@ -3544,9 +3592,8 @@ header .support{
     .advantages .item4 .title4, .mintext4 {
         position: static;
 
-
-
     }
+
     .advantages .item4 .title4 {
         font-size: 24px;
         line-height: 22px;
@@ -3555,9 +3602,11 @@ header .support{
         text-align: left;
         margin-top: 100px;
     }
-    .advantages .item5{
+
+    .advantages .item5 {
         position: static;
     }
+
     .advantages .item5 span[class*="icon-"] {
         display: block;
         position: static;
@@ -3567,14 +3616,14 @@ header .support{
         line-height: 50px;
         font-size: 48px;
     }
+
     .advantages .item5 .title5, .mintext5 {
 
         position: static;
         margin-left: 245px;
 
-
-
     }
+
     .advantages .item5 .title5 {
         font-size: 24px;
         line-height: 22px;
@@ -3584,6 +3633,7 @@ header .support{
         margin-top: 50px;
 
     }
+
     .analysiswork h2 {
         font-size: 30px;
         line-height: 50px;
@@ -3593,6 +3643,7 @@ header .support{
         margin-top: 30px;
         margin-left: 167px;
     }
+
     .analysiswork p {
         font-size: 15px;
         line-height: 30px;
@@ -3601,6 +3652,7 @@ header .support{
         width: 360px;
         padding-top: 28px;
     }
+
     .analysiswork .analysis span {
         position: absolute;
         display: block;
@@ -3610,6 +3662,7 @@ header .support{
         font-size: 89px;
         left: 65px;
     }
+
     .analysiswork .work span {
         position: absolute;
         display: block;
@@ -3619,17 +3672,20 @@ header .support{
         line-height: 90px;
         font-size: 89px;
     }
-    .analysiswork button{
-        margin-top: 30px;
-    }
-    .analysiswork .work button{
-        margin-top: 30px;
-    }
-    .cooperation {
-         display: table;
-         width: 100%;
 
-     }
+    .analysiswork button {
+        margin-top: 30px;
+    }
+
+    .analysiswork .work button {
+        margin-top: 30px;
+    }
+
+    .cooperation {
+        display: table;
+        width: 100%;
+
+    }
 
     .cooperation img {
         vertical-align: middle;
@@ -3643,15 +3699,16 @@ header .support{
         margin-top: 20px;
 
     }
+
     .menuFotter {
         padding-left: 25px;
 
     }
 
-
     .support, .address {
         padding-left: 0px;
     }
+
     .head {
         text-decoration: none;
         text-align: center;
@@ -3660,7 +3717,7 @@ header .support{
 
     .head img {
         margin-top: 65px;
-        margin-left:-225px
+        margin-left: -225px
     }
 
     .head {
@@ -3673,8 +3730,8 @@ header .support{
         display: block;
         margin-left: 140px;
 
-
     }
+
     .form1 {
         float: left;
         width: 100%;
@@ -3709,19 +3766,22 @@ header .support{
         text-align: left;
         text-transform: uppercase;
     }
-    .personal, .login, .e-currency{
+
+    .personal, .login, .e-currency {
         margin-top: 30px;
 
     }
 
-    .footclear{
+    .footclear {
         padding-left: 70px;
         margin-left: 180px;
     }
+
     .foot .copyright {
         margin-left: 260px;
         margin-top: 30px;
     }
+
     .backDep {
         height: 3045px;
         /*width: 1920px;*/
@@ -3733,24 +3793,29 @@ header .support{
         background-size: cover;
 
     }
+
     .right .top {
         display: inline-block;
         width: 100%;
         margin-left: 40px;
         margin-top: 15px;
     }
+
     .support a {
         padding-right: 10px;
     }
+
     .right .bottom {
         display: table;
         width: 100%;
     }
+
     .topLine {
         display: block;
         width: 100%;
         padding-top: 40px;
     }
+
     .topLine li {
         display: inline-block;
         vertical-align: middle;
@@ -3762,29 +3827,35 @@ header .support{
         padding: 5px;
 
     }
+
     .bannerDep {
         width: 100%;
         height: 130px;
         background-color: #040830;
 
     }
+
     .deposit1 span {
         display: none;
     }
+
     .accountInfo {
         position: absolute;
         top: -30px;
         left: 135px;
 
     }
+
     .calendar {
         position: absolute;
         top: -30px;
         left: 335px;
     }
+
     .withdraw span {
         display: none;
     }
+
     .balance {
         float: left;
         width: 280px;
@@ -3795,12 +3866,14 @@ header .support{
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 
     }
+
     .balance .acBalance {
         position: absolute;
         display: block;
         left: 83px;
         top: 15px;
     }
+
     .yourDeposit {
         background-color: #040830;
         width: 100%;
@@ -3809,16 +3882,19 @@ header .support{
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
+
     .yourDeposit .item {
         padding-top: 70px;
         padding-left: 1px;
     }
+
     .balance span:last-child {
         position: absolute;
         display: block;
         top: 57px;
         left: 87px;
     }
+
     .counter {
         float: left;
         width: 470px;
@@ -3826,6 +3902,7 @@ header .support{
         background-color: #040830;
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
     }
+
     .card {
         float: left;
         width: 50%;
@@ -3833,25 +3910,29 @@ header .support{
         padding: 7px;
         padding-left: 5px;
     }
+
     .card span {
         display: inline-block;
         padding-left: 10px;
 
     }
+
     .infoDep {
         width: 750px;
         float: left;
     }
+
     .item .boxData .title1 {
         font-size: 15px;
         line-height: 22px;
         color: #ffffff;
         text-align: left;
-        top:6px;
+        top: 6px;
         left: 40px;
         position: absolute;
 
     }
+
     .item .boxData .when {
         font-size: 15px;
         line-height: 22px;
@@ -3862,17 +3943,20 @@ header .support{
         top: 30px;
         left: 45px;
     }
+
     .item .boxData {
         position: relative;
         padding: 5px;
 
     }
+
     .item .box {
         position: relative;
         padding: 4px;
         border: 1px solid #3b4577;
 
     }
+
     .estimate {
         width: 100%;
         height: 45px;
@@ -3892,6 +3976,7 @@ header .support{
         top: 10px;
 
     }
+
     .lineZad {
         background-color: #232853;
         width: 545px;
@@ -3901,19 +3986,21 @@ header .support{
         left: 195px;
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.51);
     }
+
     .pagination {
         margin-left: 196px;
         margin-top: 78px;
     }
 
-
 }
+
 @media (max-width: 767px) {
     .container {
         width: 100%;
     }
+
     header .table1 {
-        display:block;
+        display: block;
         width: 100%;
         margin-top: 10px;
         vertical-align: middle;
@@ -3921,17 +4008,17 @@ header .support{
     }
 
     .table1 .DataTime, .calculator1, .calculator2 {
-        display:block;
+        display: block;
         width: auto;
         vertical-align: middle;
         margin-left: 25px;
 
     }
-    .table1 .calculator{
+
+    .table1 .calculator {
         padding-top: 10px;
         margin-left: 25px;
     }
-
 
     .menu {
         width: calc(100% - 170px);
@@ -3940,17 +4027,17 @@ header .support{
         margin-top: 114px;
         position: relative;
     }
-    .menu li:not(.Login):before{
+
+    .menu li:not(.Login):before {
         content: "";
         display: block;
         width: 8px;
         height: 8px;
-        border-radius:50% ;
+        border-radius: 50%;
         background-color: #012a73;
         position: absolute;
 
     }
-
 
     .menu li {
         display: inline-block;
@@ -3958,7 +4045,6 @@ header .support{
         margin-top: 20px;
 
     }
-
 
     .registration h1 {
         font-size: 70px;
@@ -3987,8 +4073,6 @@ header .support{
         text-align: left;
     }
 
-
-
     .cards .text {
         font-size: 15px;
         line-height: 36px;
@@ -4005,7 +4089,8 @@ header .support{
         text-align: center;
 
     }
-    .statistic .cards{
+
+    .statistic .cards {
         margin-top: 30px;
     }
 
@@ -4014,6 +4099,7 @@ header .support{
         width: 100%;
 
     }
+
     .about .documents {
         float: left;
         width: 100%;
@@ -4021,20 +4107,33 @@ header .support{
 
     }
 
-    .program{
-        display: none;
-    }
-    .plan{
+    .program {
         display: none;
     }
 
-    .bannerDep{
+    .plan {
         display: none;
     }
 
-    .advantages .item1{
+    .bannerDep {
+        display: none;
+    }
+
+    .back3 {
+        height: 1245px;
+        /*width: 1920px;*/
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -578px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-image: none !important;
+    }
+
+    .advantages .item1 {
         position: static;
     }
+
     .advantages .item1 span[class*="icon-"] {
         display: block;
         position: static;
@@ -4050,6 +4149,7 @@ header .support{
         margin-right: 276px;
 
     }
+
     .advantages .item1 .title1 {
         font-size: 24px;
         line-height: 22px;
@@ -4059,9 +4159,11 @@ header .support{
         margin-left: 101px;
         margin-top: 30px;
     }
-    .advantages .item2{
+
+    .advantages .item2 {
         position: static;
     }
+
     .advantages .item2 span[class*="icon-"] {
         display: block;
         position: static;
@@ -4079,6 +4181,7 @@ header .support{
         margin-top: 20px;
 
     }
+
     .advantages .item2 .title2 {
         font-size: 24px;
         line-height: 22px;
@@ -4088,9 +4191,11 @@ header .support{
         padding-top: 20px;
 
     }
-    .advantages .item3{
+
+    .advantages .item3 {
         position: static;
     }
+
     .advantages .item3 span[class*="icon-"] {
         display: block;
         position: static;
@@ -4106,8 +4211,8 @@ header .support{
         position: static;
         margin-right: 20px;
 
-
     }
+
     .advantages .item3 .title3 {
         font-size: 24px;
         line-height: 22px;
@@ -4117,9 +4222,11 @@ header .support{
         margin-top: 55px;
 
     }
-    .advantages .item4{
+
+    .advantages .item4 {
         position: static;
     }
+
     .advantages .item4 span[class*="icon-"] {
         display: block;
         position: static;
@@ -4133,9 +4240,8 @@ header .support{
     .advantages .item4 .title4, .mintext4 {
         position: static;
 
-
-
     }
+
     .advantages .item4 .title4 {
         font-size: 24px;
         line-height: 22px;
@@ -4144,9 +4250,11 @@ header .support{
         text-align: left;
         margin-top: 50px;
     }
-    .advantages .item5{
+
+    .advantages .item5 {
         position: static;
     }
+
     .advantages .item5 span[class*="icon-"] {
         display: block;
         position: static;
@@ -4157,14 +4265,14 @@ header .support{
         line-height: 50px;
         font-size: 48px;
     }
+
     .advantages .item5 .title5, .mintext5 {
 
         position: static;
         margin-left: 245px;
 
-
-
     }
+
     .advantages .item5 .title5 {
         font-size: 24px;
         line-height: 22px;
@@ -4175,19 +4283,21 @@ header .support{
         margin-left: 295px;
 
     }
-    .back4{
+
+    .back4 {
         height: auto;
         -webkit-background-size: cover;
         background-size: cover;
     }
+
     .analysiswork .analysis {
         float: right;
         width: 100%;
         background-color: #232853;
         height: 620px;
         margin-top: 330px;
-        border-top:5px solid #9846db ;
-        border-right:1px solid #12173f;
+        border-top: 5px solid #9846db;
+        border-right: 1px solid #12173f;
     }
 
     .analysiswork .work {
@@ -4196,11 +4306,11 @@ header .support{
         background-color: #232853;
         height: 620px;
         margin-top: 30px;
-        border-top:5px solid #3270fe ;
-        border-left:1px solid #12173f ;
-
+        border-top: 5px solid #3270fe;
+        border-left: 1px solid #12173f;
 
     }
+
     .cooperation {
         display: inline-block;
         width: 100%;
@@ -4214,23 +4324,21 @@ header .support{
         margin-bottom: 100px;
     }
 
-
-
     .menuFotter {
         padding-left: 75px;
 
     }
 
-
     .head img {
         margin-top: 65px;
-        margin-left:-60px
+        margin-left: -60px
     }
 
     .head {
         position: relative;
         margin-left: 35px;
     }
+
     .head .logo1 {
         position: absolute;
         display: block;
@@ -4264,21 +4372,25 @@ header .support{
         text-align: left;
         text-transform: uppercase;
     }
-    form{
+
+    form {
         float: none;
         margin-left: -125px;
 
     }
+
     .footclear {
         padding-left: 70px;
         margin-left: 50px;
     }
+
     .foot .copyright {
         margin-left: 135px;
         margin-top: 30px;
     }
+
     .backDep {
-        height: 3045px;
+        height: 3630px;
         /*width: 1920px;*/
         background-repeat: no-repeat;
         background-position: center;
@@ -4288,44 +4400,54 @@ header .support{
         background-size: cover;
 
     }
-    .banner1{
+
+    .banner1 {
         display: none;
     }
-    .estimate{
+
+    .estimate {
         display: none;
     }
-    .right{
+
+    .right {
         display: block;
     }
+
     .right .top {
         display: inline-block;
         width: 100%;
         margin-left: 40px;
         margin-top: 15px;
     }
+
     .support a {
         padding-right: 10px;
     }
+
     .right .bottom {
         display: table;
         width: 100%;
     }
-     .right .bottom .DataTime, .calculator1, .calculator2 {
+
+    .right .bottom .DataTime, .calculator1, .calculator2 {
         display: block;
         width: auto;
         vertical-align: middle;
         margin-left: 25px;
     }
-     .right .bottom .calculator{
-         display: table-row;
+
+    .right .bottom .calculator {
+        display: table-row;
         width: 50%;
         vertical-align: middle;
     }
+
     .topLine {
         display: block;
         width: 100%;
         padding-top: 40px;
     }
+
     .topLine li {
         display: inline-block;
         vertical-align: middle;
@@ -4337,6 +4459,7 @@ header .support{
         padding: 5px;
 
     }
+
     .balance {
         float: left;
         width: 280px;
@@ -4347,12 +4470,14 @@ header .support{
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
 
     }
+
     .balance .acBalance {
         position: absolute;
         display: block;
         left: 83px;
         top: 15px;
     }
+
     .yourDeposit {
         background-color: #040830;
         width: 100%;
@@ -4361,16 +4486,19 @@ header .support{
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
+
     .yourDeposit .item {
         padding-top: 70px;
         padding-left: 1px;
     }
+
     .balance span:last-child {
         position: absolute;
         display: block;
         top: 57px;
         left: 87px;
     }
+
     .counter {
         float: left;
         width: 490px;
@@ -4378,6 +4506,7 @@ header .support{
         background-color: #040830;
         box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.33);
     }
+
     .card {
         float: left;
         width: 50%;
@@ -4385,25 +4514,34 @@ header .support{
         padding: 6px;
         padding-left: 5px;
     }
+
     .card span {
         display: inline-block;
         padding-left: 10px;
 
     }
+
     .infoDep {
         width: 100%;
-        float: left;
+        float: none;
     }
+
+    .boxImg {
+        float: none;
+        width: 195px;
+    }
+
     .item .boxData .title1 {
         font-size: 15px;
         line-height: 22px;
         color: #ffffff;
         text-align: left;
-        top:6px;
-        left: 40px;
+        top: 4px;
+        left: 55px;
         position: absolute;
 
     }
+
     .item .boxData .when {
         font-size: 15px;
         line-height: 22px;
@@ -4411,46 +4549,47 @@ header .support{
         text-align: center;
         font-weight: 700;
         position: absolute;
-        top: 30px;
-        left: 45px;
+        top: 27px;
+        left: 57px;
     }
+
     .item .boxData {
         position: relative;
-        padding: 5px;
-
+        padding: 7px;
+        display: inline-block;
+        width: 50%;
     }
+
     .item .box {
         position: relative;
         padding: 4px;
         border: 1px solid #3b4577;
+        display: inline-block;
+        width: 50%;
 
     }
-
 
     .pagination {
         margin-left: 46px;
         margin-top: 78px;
     }
+
     .footer {
         background-color: #040830;
         height: 75px;
         margin-top: -15px;
     }
+
     .footer .copyright {
         float: none;
         margin-top: 15px;
         margin-bottom: 15px;
         width: 50%;
     }
+
     .footer .home {
         float: right;
         margin-top: -78px;
     }
 
-
 }
-
-
-
-
-
